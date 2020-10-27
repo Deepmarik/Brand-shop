@@ -1,5 +1,5 @@
 $margin:0 auto;
-$padding-block:0 14%;
+$padding-block:0 14% 0 14%;
 $width-page:100%;
 $body-color:#fff;
 $btn-color:#f16d7f;
@@ -29,10 +29,13 @@ body {
 
         .nav_list {
             padding: $padding-block;
+            // background-color: bisque;
             display: flex;
             justify-content: space-between;
 
             .list_item {
+                text-transform: uppercase;
+                background-color: bisque;
                 list-style-type: $list-style;
 
                 .item_link {
