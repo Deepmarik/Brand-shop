@@ -1,14 +1,47 @@
-body{
+$margin:0 auto;
+$padding-block:0 14%;
+$width-page:100%;
+$body-color:#fff;
+$btn-color:#f16d7f;
+$link-decor:none;
+$list-style:none;
+$color:#222222;
+
+body {
     width: 1600px;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-   // width: $width;
+    background-color: $body-color;
     font-family: lato;
-    
-    
+
 }
-.page_header{
-    width: $width;
-    padding: $padding;
+
+.page_header {
+    width: $width-page;
+    padding: $padding-block;
+    background-color: $body-color;
+
+    .header_wrp {}
+
+    .header_nav {
+        width: $width-page;
+        background-color: aquamarine;
+
+        .nav_list {
+            padding: $padding-block;
+            display: flex;
+            justify-content: space-between;
+
+            .list_item {
+                list-style-type: $list-style;
+
+                .item_link {
+                    text-decoration: $link-decor;
+                    color: $color;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
 }
