@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "lato";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/lato/lato-light.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "lato";
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local("lato-regular"),
+        url("../fonts/lato/lato-regular.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "lato";
+    font-style: italic;
+    font-weight: 400;
+    src:
+        local("lato-italic"),
+        url("../fonts/lato/lato-italic.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "lato";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        local("lato-bold"),
+        url("../fonts/lato/lato-bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "lato";
+    font-style: normal;
+    font-weight: 900;
+    src:
+        local("lato-black"),
+        url("../fonts/lato/lato-black.ttf") format("truetype");
+}
