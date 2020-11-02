@@ -33,30 +33,170 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  font-family: lato;
+  font-family: "lato";
 }
 
 .page_header {
   width: 100%;
   padding: 0 14% 0 14%;
+  padding-top: 25px;
   background-color: #fff;
+}
+.page_header .header_wrp {
+  padding: 0 14% 0 14%;
+  display: flex;
+  justify-content: space-between;
+}
+.page_header .header_wrp .wrp_logo {
+  width: 604px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page_header .header_wrp .wrp_logo .logo_header {
+  width: 166px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.page_header .header_wrp .wrp_logo .logo_header .logo_img {
+  width: 59px;
+}
+.page_header .header_wrp .wrp_logo .logo_header .logo_name {
+  color: #222222;
+  font-family: "lato";
+  font-size: 27px;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 13px;
+  text-transform: uppercase;
+}
+.page_header .header_wrp .wrp_logo .logo_header .logo_name .logo_letter {
+  color: #f16d7f;
+  font-family: "lato";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.68px;
+  text-transform: uppercase;
+}
+.page_header .header_wrp .header_search {
+  width: 402px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+.page_header .header_wrp .header_search .form_search_btn {
+  width: 87px;
+  color: #222222;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 38px;
+  border: none;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: #e6e6e6;
+}
+.page_header .header_wrp .header_search .form_search {
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  height: 37px;
+  width: 272px;
+  border-top: none;
+  border-bottom: none;
+  outline: none;
+}
+.page_header .header_wrp .header_search .form_search_img {
+  margin-left: 12px;
+}
+.page_header .header_wrp .wrp_cart {
+  width: 188px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page_header .header_wrp .wrp_cart .cart__img {
+  fill: #222222;
+}
+.page_header .header_wrp .wrp_cart .cart__img:hover {
+  fill: #f16d7f;
+}
+.page_header .header_wrp .wrp_cart .cart__img:active {
+  fill: #222222;
+}
+.page_header .header_wrp .wrp_cart .my-acc__link {
+  width: 130px;
+  height: 38px;
+  background-color: #f16d7f;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: lato;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page_header .header_wrp .wrp_cart .my-acc__link .caret-down {
+  fill: #fff;
+  width: 9px;
+  height: 6px;
+}
+.page_header .header_wrp .wrp_cart .my-acc__link:hover {
+  color: #222222;
+}
+.page_header .header_wrp .wrp_cart .my-acc__link:hover .caret-down {
+  fill: #222222;
 }
 .page_header .header_nav {
   width: 100%;
-  background-color: aquamarine;
 }
 .page_header .header_nav .nav_list {
-  padding: 0 14% 0 14%;
+  padding: 0 28% 0 28%;
   display: flex;
   justify-content: space-between;
 }
 .page_header .header_nav .nav_list .list_item {
   text-transform: uppercase;
-  background-color: bisque;
   list-style-type: none;
 }
 .page_header .header_nav .nav_list .list_item .item_link {
+  font-family: "lato";
   text-decoration: none;
   color: #222222;
   font-weight: 700;
+}
+.page_header .header_slider {
+  background-image: url("../img/header_slider.png");
+  width: 100%;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 665px;
+  background-size: contain;
+  background-position-x: right;
+}
+.page_header .header_slider .header_h1 {
+  font-family: lato;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: #222222;
+  padding: 0 0 0 14%;
+}
+.page_header .header_slider .header_h2 {
+  font-size: 40px;
+  padding: 0 0 0 14%;
+  margin: 0;
+}
+.page_header .header_slider .header_h2 .h2-fashion_style {
+  color: #f16d7f;
 }
