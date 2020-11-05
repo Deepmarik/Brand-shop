@@ -1,0 +1,52 @@
+@import "variables";
+
+.page_main {
+    .category {
+        width: $width-page;
+        padding: $padding-block;
+        display: flex;
+        justify-content: center;
+
+        .banner-wrp {
+            width: 560px;
+            height: 823px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 98px;
+            margin-right: 20px;
+            position: relative;
+
+            .banner_offer {
+                .banner_txt-wrp {
+                    display: flex;
+                    flex-direction: column;
+                    width: 175px;
+                    height: 82px;
+                    background-color: #ffffff;
+                    position: absolute;
+                    top: 26px;
+                    left: 0;
+
+                    .bnr_txt-top {
+                        font-family: lato;
+                        font-size: 18px;
+                        line-height: 1.2;
+                        font-weight: 900;
+                        text-transform: uppercase;
+                        letter-spacing: 0.025em;
+                        color: #222222;
+                    }
+
+                    .bnr_txt-btn {
+                        font-size: 30px;
+                        color: #f16d7f;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .category_offer {}
+            }
+        }
+    }
+}

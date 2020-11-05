@@ -1,12 +1,4 @@
 @import "variables";
-$margin:0 auto;
-$padding-block:0 14% 0 14%;
-$width-page:100%;
-$body-color:#fff;
-$btn-color:#f16d7f;
-$link-decor:none;
-$list-style:none;
-$color:#222222;
 
 body {
     width: 1600px;
@@ -92,6 +84,24 @@ body {
                 box-sizing: border-box;
                 text-align: left;
                 background-color: #e6e6e6;
+                cursor: pointer;
+                outline: none;
+
+                .btn_caret-down {
+                    fill: #222222;
+                    width: 9px;
+                    margin-left: 10px;
+
+                }
+
+                &:hover {
+                    background-color: #222222;
+                    color: #e6e6e6;
+                }
+
+                &:hover .btn_caret-down {
+                    fill: #e6e6e6;
+                }
 
             }
 
