@@ -18,14 +18,36 @@
             position: relative;
 
             .banner_offer {
+                .offer1_position {
+                    width: 175px;
+                    height: 82px;
+                    top: 26px;
+                }
+
+                .offer2_position {
+                    width: 225px;
+                    height: 82px;
+                    top: 587px;
+                }
+
+                .offer3_position {
+                    width: 162px;
+                    height: 82px;
+                    top: 26px;
+                }
+
+                .offer4_position {
+                    width: 180px;
+                    height: 82px;
+                    top: 304px
+                }
+
                 .banner_txt-wrp {
                     display: flex;
                     flex-direction: column;
-                    width: 175px;
-                    height: 82px;
+
                     background-color: #ffffff;
                     position: absolute;
-                    top: 26px;
                     left: 0;
 
                     .bnr_txt-top {

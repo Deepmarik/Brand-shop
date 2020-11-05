@@ -231,14 +231,31 @@ body {
   margin-right: 20px;
   position: relative;
 }
+.page_main .category .banner-wrp .banner_offer .offer1_position {
+  width: 175px;
+  height: 82px;
+  top: 26px;
+}
+.page_main .category .banner-wrp .banner_offer .offer2_position {
+  width: 225px;
+  height: 82px;
+  top: 587px;
+}
+.page_main .category .banner-wrp .banner_offer .offer3_position {
+  width: 162px;
+  height: 82px;
+  top: 26px;
+}
+.page_main .category .banner-wrp .banner_offer .offer4_position {
+  width: 180px;
+  height: 82px;
+  top: 304px;
+}
 .page_main .category .banner-wrp .banner_offer .banner_txt-wrp {
   display: flex;
   flex-direction: column;
-  width: 175px;
-  height: 82px;
   background-color: #ffffff;
   position: absolute;
-  top: 26px;
   left: 0;
 }
 .page_main .category .banner-wrp .banner_offer .banner_txt-wrp .bnr_txt-top {
