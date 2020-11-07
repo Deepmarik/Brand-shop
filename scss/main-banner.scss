@@ -214,8 +214,26 @@
             .featured_btm-arrow {
                 fill: #ffffff;
             }
-            &:hover .featured_btm-arrow{fill: #222222;}
-            &:hover{color: #222222;}
+
+            &:hover .featured_btm-arrow {
+                fill: #222222;
+            }
+
+            &:hover {
+                color: #222222;
+            }
         }
+    }
+
+    .offer {
+        width: 72%;
+        min-height: 529px;
+        margin-top: 113px;
+        margin-left: 28%;
+        background-color: #222224;
+        //padding: $padding-max;
+        background-image: url(../img/offer/offer_img.png);
+        background-position: left;
+        background-repeat: no-repeat;
     }
 }
