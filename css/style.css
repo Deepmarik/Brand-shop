@@ -376,3 +376,31 @@ body {
 .page_main .featured .featured_link-wrp .featured_link .content_caret .caret_style {
   fill: #ffffff;
 }
+.page_main .featured .featured_btm {
+  width: 212px;
+  height: 48px;
+  background-color: #f16d7f;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 0;
+  display: flex;
+}
+.page_main .featured .featured_btm .featured_btm_txt {
+  padding: 0 9px 0 0;
+}
+.page_main .featured .featured_btm .featured_btm-arrow {
+  fill: #ffffff;
+}
+.page_main .featured .featured_btm:hover .featured_btm-arrow {
+  fill: #222222;
+}
+.page_main .featured .featured_btm:hover {
+  color: #222222;
+}
