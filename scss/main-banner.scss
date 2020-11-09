@@ -249,25 +249,34 @@
             height: 95px;
             width: 219px;
             margin-right: 43px;
-        }
+            position: relative;
 
-        .free-header {
-            font-family: lato;
-            font-size: 20px;
-            line-height: 1.2;
-            font-weight: 700;
-            letter-spacing: 0.025em;
-            color: #fbfbfb;
-        }
+            .offer_icon {
+                position: absolute;
+                left: -77px;
+                top: 0;
+            }
 
-        .offer_txt {
-            color: #fbfbfb;
-            font-family: lato;
-            font-size: 14px;
-            font-weight: 300;
-            font-style: normal;
-            letter-spacing: normal;
-            line-height: 24px;
+            
+
+            .free-header {
+                font-family: lato;
+                font-size: 20px;
+                line-height: 1.2;
+                font-weight: 700;
+                letter-spacing: 0.025em;
+                color: #fbfbfb;
+            }
+
+            .offer_txt {
+                color: #fbfbfb;
+                font-family: lato;
+                font-size: 14px;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 20px;
+            }
         }
 
     }

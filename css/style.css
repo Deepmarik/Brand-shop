@@ -443,8 +443,14 @@ body {
   height: 95px;
   width: 219px;
   margin-right: 43px;
+  position: relative;
 }
-.page_main .offer .free-header {
+.page_main .offer .free-sales-quality .offer_icon {
+  position: absolute;
+  left: -77px;
+  top: 0;
+}
+.page_main .offer .free-sales-quality .free-header {
   font-family: lato;
   font-size: 20px;
   line-height: 1.2;
@@ -452,12 +458,12 @@ body {
   letter-spacing: 0.025em;
   color: #fbfbfb;
 }
-.page_main .offer .offer_txt {
+.page_main .offer .free-sales-quality .offer_txt {
   color: #fbfbfb;
   font-family: lato;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 24px;
+  line-height: 20px;
 }
