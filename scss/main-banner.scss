@@ -233,7 +233,7 @@
         margin-left: 28%;
         background-color: #222224;
         //padding: $padding-max;
-        background-image: url(../img/offer/offer_img.png);
+        background-image: url(../img/offer/2-layers-bcg.png);
         background-position: left;
         background-repeat: no-repeat;
         display: flex;
@@ -241,7 +241,41 @@
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-evenly;
+        position: relative;
 
+        .offer-sale-wrp {
+            color: #ffffff;
+            position: absolute;
+            top: 146px;
+            left: 39px;
+            height: 78px;
+            text-transform: uppercase;
+            margin: 0;
+
+            .txt-top {
+                color: #ffffff;
+                font-family: lato;
+                font-size: 54px;
+                font-weight: 700;
+                font-style: normal;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            .offer-style {
+                color: $btn-color;
+                font-style: normal;
+                letter-spacing: 1.5px;
+            }
+
+            .txt-btm {
+                font-size: 32.2px;
+                font-style: normal;
+                letter-spacing: 0.9px;
+                line-height: normal;
+                margin: 0;
+            }
+        }
 
         .free-sales-quality {
             display: flex;
@@ -257,7 +291,7 @@
                 top: 0;
             }
 
-            
+
 
             .free-header {
                 font-family: lato;
@@ -274,8 +308,9 @@
                 font-size: 14px;
                 font-weight: 300;
                 font-style: normal;
-                letter-spacing: normal;
-                line-height: 20px;
+                //letter-spacing: normal;
+                line-height: 24px;
+                letter-spacing: 0.025em;
             }
         }
 

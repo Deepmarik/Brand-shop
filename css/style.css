@@ -428,7 +428,7 @@ body {
   margin-top: 113px;
   margin-left: 28%;
   background-color: #222224;
-  background-image: url(../img/offer/offer_img.png);
+  background-image: url(../img/offer/2-layers-bcg.png);
   background-position: left;
   background-repeat: no-repeat;
   display: flex;
@@ -436,6 +436,37 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-evenly;
+  position: relative;
+}
+.page_main .offer .offer-sale-wrp {
+  color: #ffffff;
+  position: absolute;
+  top: 146px;
+  left: 39px;
+  height: 78px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.page_main .offer .offer-sale-wrp .txt-top {
+  color: #ffffff;
+  font-family: lato;
+  font-size: 54px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+.page_main .offer .offer-sale-wrp .offer-style {
+  color: #f16d7f;
+  font-style: normal;
+  letter-spacing: 1.5px;
+}
+.page_main .offer .offer-sale-wrp .txt-btm {
+  font-size: 32.2px;
+  font-style: normal;
+  letter-spacing: 0.9px;
+  line-height: normal;
+  margin: 0;
 }
 .page_main .offer .free-sales-quality {
   display: flex;
@@ -464,6 +495,6 @@ body {
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
-  letter-spacing: normal;
-  line-height: 20px;
+  line-height: 24px;
+  letter-spacing: 0.025em;
 }
