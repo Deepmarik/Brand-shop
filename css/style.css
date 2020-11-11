@@ -511,6 +511,69 @@ body {
 }
 .sub-footer .feedback {
   width: 50%;
+  border-right: 1px solid #fff;
+  position: relative;
+}
+.sub-footer .feedback .rect_btm {
+  fill: #d6d6d6;
+}
+.sub-footer .feedback .rect_btm:hover {
+  fill: #f16d7f;
+}
+.sub-footer .feedback .left {
+  fill: #d6d6d6;
+  position: absolute;
+  top: 278px;
+  left: 328px;
+}
+.sub-footer .feedback .middle {
+  position: absolute;
+  left: 382px;
+  top: 278px;
+}
+.sub-footer .feedback .rigth {
+  position: absolute;
+  left: 433px;
+  top: 278px;
+}
+.sub-footer .feedback .feedback-wrp {
+  background-image: url(../img/reviewPerson.png);
+  background-repeat: no-repeat;
+  width: 497px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  flex-direction: column;
+  margin: 111px 0 0 230px;
+  box-sizing: border-box;
+}
+.sub-footer .feedback .feedback-wrp:hover .middle {
+  fill: #f16d7f;
+}
+.sub-footer .feedback .feedback-wrp .feedback_txt {
+  font-family: lato;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.025em;
+  color: #222224;
+  margin: 0;
+}
+.sub-footer .feedback .feedback-wrp .feedback_autor {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #222224;
+  width: 84px;
+}
+.sub-footer .feedback .feedback-wrp .feedback_autor .feedback_autor-style {
+  font-family: lato;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
 }
 .sub-footer .subscribe {
   width: 50%;
@@ -526,7 +589,6 @@ body {
   font-size: 24px;
   font-style: normal;
   letter-spacing: 0.6px;
-  line-height: 54px;
   text-transform: uppercase;
 }
 .sub-footer .subscribe .sub_txt-btm {
