@@ -165,6 +165,133 @@
     }
 }
 
+/* main-footer */
+.main-footer {
+    width: 72%;
+    padding: $padding-max;
+    min-height: 458px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //margin-left: 28%;
+
+    .description {
+        width: 427px;
+
+        .description_top {
+            margin: 0 0 38px 0;
+        }
+
+        .desc_style {
+            font-family: lato;
+            font-size: 14px;
+            line-height: 28px;
+            font-weight: 300;
+            letter-spacing: 0.025em;
+            color: #898989;
+
+        }
+
+        .wrp_logo {
+            width: 604px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 109px 0 29px 0;
+
+            .logo_header {
+                width: 166px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                text-transform: uppercase;
+                text-decoration: $link-decor;
+
+                .logo_img {
+                    width: 59px;
+                }
+
+                .logo_name {
+                    color: #222222;
+                    font-family: "lato";
+                    font-size: 27px;
+                    font-weight: 300;
+                    font-style: normal;
+                    margin-left: 13px;
+                    //letter-spacing: normal;
+                    // line-height: 32px;
+                    //text-align: center;
+                    text-transform: uppercase;
+
+                    .logo_letter {
+                        color: $btn-color;
+                        font-family: "lato";
+                        font-weight: 700;
+                        font-style: normal;
+                        letter-spacing: 0.68px;
+                        // line-height: normal;
+                        text-transform: uppercase;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .nav-style {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        justify-content: center;
+        margin-top: 123px;
+        margin-bottom: 97px;
+
+
+        .nav_header-style {
+            font-family: lato;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 700;
+            letter-spacing: 0.025em;
+            color: $btn-color;
+            text-transform: uppercase;
+        }
+    }
+
+    .company_list_item {
+        text-decoration: $link-decor;
+        list-style-type: $list-style;
+    }
+
+    .company {
+        width: 102px;
+
+        .company_list_item {}
+
+
+        .item_link {}
+    }
+
+    .item_link {
+        text-decoration: $link-decor;
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 59px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: #898989;
+    }
+
+    .information {
+        width: 146px;
+    }
+
+    .category-shop {
+        width: 154px;
+    }
+}
+
+/* Footer-page */
 .page-footer {
     width: 72.6%;
     height: 79px;
@@ -229,6 +356,7 @@
                 //background-image: url(../img/sprite-1/Tw_logo_pink.png);
                 background-position: -38px -40px;
             }
+
             &:active {
                 background-position: -38px 0;
                 filter: brightness(0.8)
@@ -244,6 +372,7 @@
                 // background-image: url(../img/sprite-1/in_logo_pink.png);
                 background-position: -78px -40px;
             }
+
             &:active {
                 background-position: -78px -72px;
                 filter: brightness(0.8)
@@ -259,7 +388,7 @@
                 //background-image: url(../img/sprite-1/Pt_logo_pink.png);
                 background-position: -118px -40px;
             }
-            
+
             &:active {
                 background-position: -120px 0;
                 filter: brightness(0.8)
@@ -275,6 +404,7 @@
                 //  background-image: url(../img/sprite-1/G+_logo_pink.png);
                 background-position: 0-160px -40px;
             }
+
             &:active {
                 background-position: -160px 0;
                 filter: brightness(0.8)
