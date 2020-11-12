@@ -22,6 +22,8 @@
             &:hover {
                 fill: $btn-color;
             }
+
+
         }
 
         .left {
@@ -35,6 +37,11 @@
             position: absolute;
             left: 382px;
             top: 278px;
+            fill: $btn-color;
+
+            &:hover {
+                fill: #d6d6d6;
+            }
         }
 
         .rigth {
@@ -55,11 +62,10 @@
             margin: 111px 0 0 230px;
             box-sizing: border-box;
 
-            &:hover .middle {
-
+            &:hover .middle:hover {
                 fill: $btn-color;
-            }
 
+            }
 
             .feedback_txt {
                 font-family: lato;
@@ -70,6 +76,7 @@
                 letter-spacing: 0.025em;
                 color: #222224;
                 margin: 0;
+
             }
 
             .feedback_autor {
@@ -153,6 +160,124 @@
                 font-weight: 400;
                 letter-spacing: 0.025em;
                 color: #ffffff;
+            }
+        }
+    }
+}
+
+.page-footer {
+    width: 72.6%;
+    height: 79px;
+    background-color: #e6e6e6;
+    padding: $padding-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 14%;
+
+    .brand_wrp {
+        width: 260px;
+        display: flex;
+        align-items: center;
+
+        .brand-style {
+            font-family: lato;
+            font-size: 16px;
+            line-height: 42px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #7a7a7a;
+        }
+    }
+
+    .sprite_wrp {
+        a:not(:last-child) {
+            margin-right: 8px;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            //margin-right: 8px;
+
+        }
+
+        .icon-fb {
+            background-color: #fff;
+            background-image: url(../img/sprite-1/sprite.png);
+            background-position: 0 0;
+
+            &:hover {
+                //background-image: url(../img/sprite-1/FB_logo_pink.png);
+                background-position: 2px -40px;
+            }
+
+            &:active {
+                background-position: 0 0;
+                filter: brightness(0.8)
+            }
+
+        }
+
+        .icon-twitter {
+            background-color: #fff;
+            background-image: url(../img/sprite-1/sprite.png);
+            background-position: -38px 0;
+
+            &:hover {
+                //background-image: url(../img/sprite-1/Tw_logo_pink.png);
+                background-position: -38px -40px;
+            }
+            &:active {
+                background-position: -38px 0;
+                filter: brightness(0.8)
+            }
+        }
+
+        .icon-ln {
+            background-color: #fff;
+            background-image: url(../img/sprite-1/sprite.png);
+            background-position: -78px -72px;
+
+            &:hover {
+                // background-image: url(../img/sprite-1/in_logo_pink.png);
+                background-position: -78px -40px;
+            }
+            &:active {
+                background-position: -78px -72px;
+                filter: brightness(0.8)
+            }
+        }
+
+        .icon-p {
+            background-color: #fff;
+            background-image: url(../img/sprite-1/sprite.png);
+            background-position: -120px 0;
+
+            &:hover {
+                //background-image: url(../img/sprite-1/Pt_logo_pink.png);
+                background-position: -118px -40px;
+            }
+            
+            &:active {
+                background-position: -120px 0;
+                filter: brightness(0.8)
+            }
+        }
+
+        .icon-g {
+            background-color: #fff;
+            background-image: url(../img/sprite-1/sprite.png);
+            background-position: -160px 0;
+
+            &:hover {
+                //  background-image: url(../img/sprite-1/G+_logo_pink.png);
+                background-position: 0-160px -40px;
+            }
+            &:active {
+                background-position: -160px 0;
+                filter: brightness(0.8)
             }
         }
     }
