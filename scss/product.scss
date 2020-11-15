@@ -2,7 +2,7 @@
 
 body {
     width: 1600px;
-    margin: 0 auto;
+    margin: $margin;
     padding: 0;
     background-color: $body-color;
     font-family: "lato";
@@ -261,4 +261,25 @@ body {
             }
         }
     }
+}
+
+/* Main shoping cart */
+.shoping_cart {
+    width: $width-page;
+    margin: 0 auto;
+
+    .shp-cart-head-wrp {
+        width: 72%;
+        margin: 0 auto;
+
+        .head-left-wrp {}
+
+        .head-shop-style {}
+
+        .head-right-wrp {}
+    }
+
+    /* Section product details */
+    .prdct-item {}
+
 }
