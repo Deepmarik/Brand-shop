@@ -4,7 +4,7 @@
     width: $width-page;
     background-image: url(../img/subscribe-bcg.png);
     min-height: 438px;
-    padding: $padding-block;
+    //padding: $padding-block;
     margin-top: 97px;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,12 +168,12 @@
 /* main-footer */
 .main-footer {
     width: 72%;
-    padding: $padding-max;
+   // padding: $padding-max;
     min-height: 458px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    //margin-left: 28%;
+    margin-left: 14%;
 
     .description {
         width: 427px;
@@ -300,7 +300,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 14%;
+    //margin-left: 14%;
 
     .brand_wrp {
         width: 260px;

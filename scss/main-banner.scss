@@ -3,7 +3,7 @@
 .page_main {
     .category {
         width: $width-page;
-        padding: $padding-block;
+       // padding: $padding-block;
         display: flex;
         justify-content: center;
 
@@ -75,7 +75,7 @@
 
     .featured {
         width: $width-page;
-        padding: $padding-block;
+       // padding: $padding-block;
 
         .featured_hdr {
             width: $width-page;
@@ -230,7 +230,7 @@
         width: 72%;
         min-height: 529px;
         margin-top: 113px;
-        margin-left: 28%;
+        margin-left: 14%;
         background-color: #222224;
         //padding: $padding-max;
         background-image: url(../img/offer/2-layers-bcg.png);
