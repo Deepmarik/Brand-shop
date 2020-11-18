@@ -589,10 +589,68 @@ body {
             background-color: #f5f3f3;
             padding: 40px;
             box-sizing: border-box;
+            height: 214px;
 
-            .grandTotalSub {}
+            .grandTotalSub {
+                margin-bottom: 14px;
+                color: #4a4a4a;
+                font-size: 11px;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-align: right;
 
-            .grandTotalGrand {}
+                .grandtotal_span {
+                    color: #4a4a4a;
+                    font-size: 11px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    text-align: right;
+                }
+
+                .grandtotal_span-left {
+                    margin-left: 15px;
+                }
+            }
+
+            .grandTotalGrand {
+                text-align: right;
+                color: #222222;
+                font-size: 16px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-bottom: 22px;
+                border-bottom: 1px solid #e2e2e2;
+                margin-bottom: 17px;
+
+                .grandtotal_grand {
+                    text-align: right;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #f16d7f;
+                    margin-right: 20px;
+                }
+
+                .grandtotal_grand-price {
+                    text-align: right;
+                    color: #222222;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+
+            .grandtotal_bttn {
+                width: 100%;
+                background-color: #f16d7f;
+                padding: 20px 38px;
+                text-align: center;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: 700;
+                border: none;
+            }
         }
     }
 
