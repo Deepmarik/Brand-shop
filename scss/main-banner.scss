@@ -1,11 +1,15 @@
 @import "variables";
 
 .page_main {
+    margin: 0 auto;
+    width: 72%;
+
     .category {
         width: $width-page;
-       // padding: $padding-block;
+        // padding: $padding-block;
         display: flex;
         justify-content: center;
+       // margin-left: 14%;
 
         .banner-wrp {
             width: 560px;
@@ -73,9 +77,11 @@
         }
     }
 
+    /* Section featured */
     .featured {
         width: $width-page;
-       // padding: $padding-block;
+        //margin-left: 14%;
+        //padding: $padding-block;
 
         .featured_hdr {
             width: $width-page;
@@ -227,10 +233,10 @@
 
     /* Section Offer */
     .offer {
-        width: 72%;
+        width: 100%;
         min-height: 529px;
         margin-top: 113px;
-        margin-left: 14%;
+        margin-left: 19%;
         background-color: #222224;
         //padding: $padding-max;
         background-image: url(../img/offer/2-layers-bcg.png);

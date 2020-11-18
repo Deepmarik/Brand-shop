@@ -40,6 +40,7 @@ body {
   width: 1600px;
   padding-top: 25px;
   background-color: #fff;
+  margin-left: 14%;
 }
 .page_header .header_wrp {
   padding: 0 14% 0 14%;
@@ -235,6 +236,9 @@ body {
 }
 
 .page_main {
+  margin: 0 auto;
+  width: 72%;
+  /* Section featured */
   /* Section Offer */
 }
 .page_main .category {
@@ -425,10 +429,10 @@ body {
   color: #222222;
 }
 .page_main .offer {
-  width: 72%;
+  width: 100%;
   min-height: 529px;
   margin-top: 113px;
-  margin-left: 14%;
+  margin-left: 19%;
   background-color: #222224;
   background-image: url(../img/offer/2-layers-bcg.png);
   background-position: left;
@@ -505,7 +509,7 @@ body {
   width: 1600px;
   background-image: url(../img/subscribe-bcg.png);
   min-height: 438px;
-  margin-top: 97px;
+  margin: 97px 0 0 0%;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -641,12 +645,12 @@ body {
 
 /* main-footer */
 .main-footer {
-  width: 72%;
+  width: 100%;
   min-height: 458px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 14%;
+  margin-left: 19%;
 }
 .main-footer .description {
   width: 427px;
@@ -746,6 +750,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 14%;
 }
 .page-footer .brand_wrp {
   width: 260px;
@@ -831,7 +836,6 @@ body {
 
 body {
   width: 1600px;
-  margin: 0 auto;
   padding: 0;
   background-color: #fff;
   font-family: "lato";
@@ -986,12 +990,27 @@ body {
 .page_header .header_nav .nav_list .list_item {
   text-transform: uppercase;
   list-style-type: none;
+  min-width: 75px;
+  text-align: center;
+}
+.page_header .header_nav .nav_list .list_item:hover::after {
+  content: "";
+  width: 75px;
+  height: 3px;
+  background-color: #f16d7f;
+  display: block;
+  margin-top: 28px;
 }
 .page_header .header_nav .nav_list .list_item .item_link {
   font-family: "lato";
   text-decoration: none;
   color: #222222;
   font-weight: 700;
+}
+.page_header .header_nav:hover .rectangle-btm {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .page_header .breadcrumb {
   width: 72%;
@@ -1037,3 +1056,96 @@ body {
   color: #f16d7f;
   font-weight: 700;
 }
+
+/* Main shoping cart */
+.main-shoping_cart {
+  margin: 0 auto;
+  width: 72%;
+  /* Section product details */
+}
+.main-shoping_cart .shp-cart-head-wrp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px 0 0 19%;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eaeaea;
+}
+.main-shoping_cart .shp-cart-head-wrp .head-shop-style {
+  font-family: lato;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+  color: #222222;
+}
+.main-shoping_cart .shp-cart-head-wrp .head-right-wrp {
+  width: 625px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-shoping_cart .ware-top {
+  margin: 22px 0 0 19%;
+  background-image: url(../img/shoping-cart/product_top.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.main-shoping_cart .ware-middle {
+  background-image: url(../img/shoping-cart/product_middle.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.main-shoping_cart .ware-btm {
+  background-image: url(../img/shoping-cart/product_btm.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.main-shoping_cart .prdct-item {
+  background-color: aqua;
+  width: 281px;
+  margin-left: 19%;
+}
+.main-shoping_cart .prdct-item .shape-btm {
+  color: #eaeaea;
+}
+.main-shoping_cart .prdct-item .prdct-details {
+  min-height: 162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main-shoping_cart .prdct-item .prdct-name {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 35px 0 0 121px;
+}
+.main-shoping_cart .prdct-item .prdct-size-color {
+  margin-left: 121px;
+}
+.main-shoping_cart .prdct-item .prdct-size-color .color-style {
+  font-family: lato;
+  font-size: 13px;
+  font-weight: 400;
+  color: #575757;
+}
+.main-shoping_cart .prdct-item .prdct-size-color .size-style {
+  font-family: lato;
+  font-size: 13px;
+  font-weight: 300;
+  color: #6f6e6e;
+}
+.main-shoping_cart .shop-footer {
+  margin: 97px 0 0 0;
+}
+.main-shoping_cart .shoping-footer {
+  margin-left: 14%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

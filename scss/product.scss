@@ -2,7 +2,7 @@
 
 body {
     width: 1600px;
-    margin: $margin;
+    // margin: $margin;
     padding: 0;
     background-color: $body-color;
     font-family: "lato";
@@ -188,6 +188,7 @@ body {
         min-height: 51px;
         //background-color: aquamarine;
 
+
         .nav_list {
             padding: $padding-max;
             // background-color: bisque;
@@ -198,14 +199,34 @@ body {
                 text-transform: uppercase;
                 // background-color: bisque;
                 list-style-type: $list-style;
+                min-width: 75px;
+                text-align: center;
+
+                &:hover::after {
+                    content: "";
+                    width: 75px;
+                    height: 3px;
+                    background-color: $btn-color;
+                    display: block;
+                    margin-top: 28px;
+                    //text-align: center;
+                }
+
 
                 .item_link {
                     font-family: "lato";
                     text-decoration: $link-decor;
                     color: $color;
                     font-weight: 700;
+
                 }
             }
+        }
+
+        &:hover .rectangle-btm {
+            position: absolute;
+            top: 0;
+            left: 0;
         }
     }
 
@@ -264,22 +285,120 @@ body {
 }
 
 /* Main shoping cart */
-.shoping_cart {
-    width: $width-page;
-    margin: 0 auto;
+.main-shoping_cart {
+    //width: $width-page;
+    margin: $margin;
+    width: 72%;
 
     .shp-cart-head-wrp {
-        width: 72%;
-        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 90px 0 0 19%;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eaeaea;
 
         .head-left-wrp {}
 
-        .head-shop-style {}
+        .head-shop-style {
+            font-family: lato;
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.015em;
+            color: $color;
+        }
 
-        .head-right-wrp {}
+        .head-right-wrp {
+            width: 625px;
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     /* Section product details */
-    .prdct-item {}
+    .ware-top {
+        margin: 22px 0 0 19%;
+        background-image: url(../img/shoping-cart/product_top.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        //border-bottom: 1px solid black;
+    }
 
+    .ware-middle {
+        background-image: url(../img/shoping-cart/product_middle.png);
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .ware-btm {
+        background-image: url(../img/shoping-cart/product_btm.png);
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .prdct-item {
+        background-color: aqua;
+        width: 281px;
+        margin-left: 19%;
+
+        .shape-btm {
+            color: #eaeaea;
+        }
+
+
+        .prdct-details {
+
+            min-height: 162px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .prdct-name {
+            font-family: Lato;
+            font-size: 13px;
+            //line-height: 1.2;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $color;
+            margin: 35px 0 0 121px;
+
+        }
+
+        .prdct-size-color {
+
+            margin-left: 121px;
+
+            .color-style {
+                font-family: lato;
+                font-size: 13px;
+                // line-height: 20px;
+                font-weight: 400;
+                color: #575757;
+                //margin-left: 121px;
+            }
+
+            .size-style {
+                font-family: lato;
+                font-size: 13px;
+                // line-height: 20px;
+                font-weight: 300;
+                color: #6f6e6e;
+            }
+        }
+    }
+
+    .shop-footer {
+        margin: 97px 0 0 0;
+    }
+
+    .shoping-footer {
+        margin-left: 14%;
+        width: 100%;
+    }
 }
