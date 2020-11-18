@@ -152,9 +152,48 @@
             </div>
             <img class="shape-btm" src="img/shoping-cart/shape_btm.png" alt="line" width="1140">
         </section>
+        <!-- Section ending shoopping -->
         <section class="ending-shop">
             <div class="ending-shop_button">
-                
+                <button class="ending_bttn">clear shopping cart</button>
+                <button class="ending_bttn">continue shopping</button>
+            </div>
+            <div class="chekout-wrp">
+                <!-- Shipping Address -->
+                <section class="shippingAddress-wrp">
+                    <form class="shippping-adress_form">
+                        <span class="shipping-adress_header">Shipping adress</span>
+                        <select class="shipping-adress_select" required>
+                            <option class="option_style">Bangladesh</option>
+                            <option class="option_style">Russia</option>
+                            <option class="option_style">Australia</option>
+                        </select>
+                        <input class="input_style" required type="text" placeholder="State">
+                        <input class="input_style" required type="number" placeholder="Postcode / Zip">
+                        <button class="shipping-adress_bttn">Get a quote</button>
+                    </form>
+                </section>
+                <!-- Coupon Discount -->
+                <section class="couponDiscount-wrp">
+                    <span class="couponDiscount_header">Coupon discount</span>
+                    <form class="coupondiscount_form">
+                        <label for="state" class="coupondiscount_label">Enter your coupon code if you have one</label>
+                        <input id="state" type="text" placeholder="State" class="coupondiscount_input">
+                        <button class="coupindiscount_bttn">Apply coupon</button>
+                    </form>
+                </section>
+                <!-- Grand Total -->
+                <div class="grandtotal-wrp">
+                    <div class="grandTotalSub">
+                        <span>Sub total</span>
+                        <span>$900</span>
+                    </div>
+                    <div class="grandTotalGrand">
+                        <span>Grand total</span>
+                        <span>$900</span>
+                    </div>
+                    <button>Proceed to checkout</button>
+                </div>
             </div>
         </section>
         <!-- Section Sub-footer -->

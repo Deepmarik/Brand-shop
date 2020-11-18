@@ -438,6 +438,164 @@ body {
         }
     }
 
+    .ending-shop {
+        margin-left: 19%;
+        width: 100%;
+
+        .ending-shop_button {
+            display: flex;
+            justify-content: space-between;
+            margin: 44px 0 63px 0;
+
+            .ending_bttn {
+                width: 235px;
+                height: 50px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                font-family: lato;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #4a4a4a;
+            }
+        }
+
+        .chekout-wrp {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .shippingAddress-wrp {
+            width: 355px;
+
+            .shippping-adress_form {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+
+                .shipping-adress_header {
+                    font-family: Lato;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #222222;
+                    margin-bottom: 22px;
+                }
+
+                .shipping-adress_select {
+                    height: 45px;
+                    border: 1px solid #eaeaea;
+                    background-color: #ffffff;
+                    width: 100%;
+                    color: #b1b1b1;
+                    font-size: 13px;
+                    font-weight: 300;
+                    padding: 13px;
+                    font-family: inherit;
+                    outline: none;
+                    box-sizing: border-box;
+                    margin-bottom: 20px;
+
+                    .option_style {}
+                }
+
+                .input_style {
+                    height: 45px;
+                    border: 1px solid #eaeaea;
+                    background-color: #ffffff;
+                    width: 100%;
+                    color: #b1b1b1;
+                    font-size: 13px;
+                    font-weight: 300;
+                    padding: 13px;
+                    font-family: inherit;
+                    outline: none;
+                    box-sizing: border-box;
+                    margin-bottom: 20px;
+                }
+
+                .shipping-adress_bttn {
+                    padding: 10px 13px;
+                    border: 1px solid #eaeaea;
+                    background: white;
+                    font-family: inherit;
+                    text-transform: uppercase;
+                    color: #4a4a4a;
+                    font-weight: 700;
+                    font-size: 11px;
+                    width: 101px;
+                    height: 35px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+
+        .couponDiscount-wrp {
+            width: 355px;
+
+            .couponDiscount_header {
+                font-family: lato;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: $color;
+
+            }
+
+            .coupondiscount_form {
+                margin-top: 28px;
+
+                .coupondiscount_label {
+                    display: block;
+                    color: #000000;
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-bottom: 24px;
+                }
+
+                .coupondiscount_input {
+                    height: 45px;
+                    border: 1px solid #eaeaea;
+                    background-color: #ffffff;
+                    width: 100%;
+                    color: #b1b1b1;
+                    font-size: 13px;
+                    font-weight: 300;
+                    padding: 13px;
+                    font-family: inherit;
+                    outline: none;
+                    box-sizing: border-box;
+                    margin-bottom: 25px;
+                }
+
+                .coupindiscount_bttn {
+                    padding: 12px 15px;
+                    border: 1px solid #eaeaea;
+                    background: white;
+                    font-family: inherit;
+                    text-transform: uppercase;
+                    color: #4a4a4a;
+                    font-weight: 700;
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .grandtotal-wrp {
+            width: 360px;
+            background-color: #f5f3f3;
+            padding: 40px;
+            box-sizing: border-box;
+
+            .grandTotalSub {}
+
+            .grandTotalGrand {}
+        }
+    }
+
     .shop-footer {
         margin: 97px 0 0 0;
     }
