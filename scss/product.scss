@@ -341,9 +341,63 @@ body {
     }
 
     .prdct-item {
-        background-color: aqua;
-        width: 281px;
+        //background-color: aqua;
+        //width: 281px;
         margin-left: 19%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .head-right-wrp {
+            width: 625px;
+            display: flex;
+            justify-content: space-between;
+
+            .productPrice {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 78px;
+            }
+
+            .productQty {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 68px;
+
+                .input_qty {
+                    width: 54px;
+                    height: 30px;
+                    background-color: #ffffff;
+                    border: 1px solid #eaeaea;
+                    text-align: center;
+                }
+            }
+
+            .productShipping {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 62px;
+            }
+
+            .productSubtotal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 66px;
+            }
+
+            .productAction {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+            }
+        }
 
         .shape-btm {
             color: #eaeaea;
@@ -353,7 +407,7 @@ body {
         .prdct-details {
 
             min-height: 162px;
-
+            margin: 0;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
