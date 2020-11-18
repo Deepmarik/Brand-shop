@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Single Page</title>
 </head>
+
 <body>
-    
+    <header class="page_header">
+        <div class="header_wrp">
+            <div class="wrp_logo">
+                <a href="index.html" class="logo_header">
+                    <img src="img/logo.png" alt="logo" class="logo_img" width=59 height=51>
+                    <div class="logo_name">Bran<span class="logo_letter">d</span>
+                    </div>
+                </a>
+                <form action="#" class="header_search"><button class="form_search_btn">Browse<svg class="btn_caret-down"
+                            role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 14 14">
+                            <path
+                                d="m 13,4.375 q 0,0.30469 -0.22266,0.52734 l -5.25,5.25 Q 7.30469,10.375 7,10.375 q -0.30469,0 -0.52734,-0.22266 l -5.250004,-5.25 Q 1,4.67969 1,4.375 1,4.07031 1.222656,3.84766 1.445312,3.625 1.75,3.625 h 10.5 q 0.30469,0 0.52734,0.22266 Q 13,4.07031 13,4.375 z" />
+                        </svg></button><input type="search" name="search" id="" class="form_search"
+                        placeholder="Search for Item..."><input type="image" src="img/lupa-search-1.svg" alt="lupa"
+                        width=14 class="form_search_img">
+                </form>
+            </div>
+            <div class="wrp_cart">
+                <a href="#"><svg class="cart__img" xmlns="http://www.w3.org/2000/svg" width="32" height="29"
+                        viewBox="0 0 32 29">
+                        <path
+                            d="M0 1.182C0 .532.533 0 1.184 0h4.28c.533 0 1.007.354 1.145.867l4.833 17.455H24.62l4.379-10.048H14.4a1.186 1.186 0 0 1-1.184-1.182c0-.65.533-1.182 1.184-1.182h16.413c.394 0 .77.197.986.532.217.335.257.749.099 1.123l-5.405 12.412c-.198.433-.612.709-1.085.709H10.554a1.184 1.184 0 0 1-1.144-.867L4.577 2.364H1.184A1.186 1.186 0 0 1 0 1.182zM6.747 26.32a2.684 2.684 0 0 1 5.365 0 2.684 2.684 0 0 1-5.365 0zm16.788.178c-.1-1.458 1.006-2.758 2.485-2.857 1.48-.098 2.762 1.025 2.86 2.483.04.728-.177 1.418-.65 1.95a2.678 2.678 0 0 1-1.835.926h-.197c-1.401 0-2.565-1.103-2.663-2.502z" />
+                    </svg></a>
+                <a href="#" class="my-acc__link">My Account<svg class="caret-down" role="img" focusable="false"
+                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                        <path
+                            d="m 13,4.375 q 0,0.30469 -0.22266,0.52734 l -5.25,5.25 Q 7.30469,10.375 7,10.375 q -0.30469,0 -0.52734,-0.22266 l -5.250004,-5.25 Q 1,4.67969 1,4.375 1,4.07031 1.222656,3.84766 1.445312,3.625 1.75,3.625 h 10.5 q 0.30469,0 0.52734,0.22266 Q 13,4.07031 13,4.375 z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- Menu -->
+        <nav class="header_nav">
+            <ul class="nav_list">
+                <li class="list_item"><a class="item_link" href="index.html">Home</a></li>
+                <li class="list_item"><a class="item_link" href="product.html">Man</a></li>
+                <li class="list_item"><a class="item_link" href="single-page.html">Women</a></li>
+                <li class="list_item"><a class="item_link" href="#">Kids</a></li>
+                <li class="list_item"><a class="item_link" href="#">Accoseriese</a></li>
+                <li class="list_item"><a class="item_link" href="#">Featured</a></li>
+                <li class="list_item"><a class="item_link" href="#">Hot Deals</a></li>
+            </ul>
+            <!--   <img src="img/shoping-cart/rectangle_25.png" alt="rectangle" class="rectangle-btm">-->
+        </nav>
+        <div class="breadcrumb">
+            <span class="bread_head">New Arrivals</span>
+            <nav class="bread_menu">
+                <ul class="bread_menu-list">
+                    <li class="bread-list_item"><a class="bread_item_link" href="index.html">Home /</a></li>
+                    <li class="bread-list_item"><a class="bread_item_link" href="index.html">Men /</a></li>
+                    <li class="bread-list_item"><a class="bread_item_link" href="index.html">New Arrivals</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 </body>
+
 </html>
