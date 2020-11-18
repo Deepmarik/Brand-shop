@@ -4,5 +4,5 @@
 @import "sub-footer.scss";
 @import "product.scss";
 @import "single-page.scss";
-
-//@import "variables.scss";
+@import "_mixins.scss";
+@import "_variables.scss";

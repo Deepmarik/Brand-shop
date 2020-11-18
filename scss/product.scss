@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 body {
     width: 1600px;
@@ -356,16 +357,12 @@ body {
             justify-content: space-between;
 
             .productPrice {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include product_item_character;
                 width: 78px;
             }
 
             .productQty {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include product_item_character;
                 width: 68px;
 
                 .input_qty {
@@ -378,23 +375,17 @@ body {
             }
 
             .productShipping {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include product_item_character;
                 width: 62px;
             }
 
             .productSubtotal {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include product_item_character;
                 width: 66px;
             }
 
             .productAction {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include product_item_character;
                 width: 50px;
             }
         }
