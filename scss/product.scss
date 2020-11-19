@@ -6,7 +6,7 @@ body {
     // margin: $margin;
     padding: 0;
     background-color: $body-color;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
 
 }
 
@@ -25,8 +25,7 @@ body {
         box-sizing: border-box;
         /* border: 1px solid #ececec; */
         /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);*/
-        box-sizing: border-box;
-
+        
         .wrp_logo {
             width: 604px;
             display: flex;
@@ -254,9 +253,6 @@ body {
         .bread_menu {
 
             .bread_menu-list {
-                display: flex;
-                flex-wrap: wrap;
-                padding: 0;
                 display: flex;
                 flex-wrap: wrap;
                 padding: 0;

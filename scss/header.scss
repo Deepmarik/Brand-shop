@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: $body-color;
-    font-family: "lato";
+    font-family: "lato", "sans-serif";
 
 }
 
@@ -82,7 +82,7 @@ body {
             .form_search_btn {
                 width: 87px;
                 color: #222222;
-                font-family: Lato;
+                font-family: lato;
                 font-size: 14px;
                 font-weight: 300;
                 font-style: normal;
@@ -219,7 +219,7 @@ body {
         justify-content: center;
         min-height: 614px;
         background-size: contain;
-        background-position-x: right;
+       // background-position-x: right;
         background-size: 555px;
         background-repeat: no-repeat;
         background-position-x: 774px;
