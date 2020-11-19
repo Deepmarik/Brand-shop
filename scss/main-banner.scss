@@ -9,7 +9,7 @@
         // padding: $padding-block;
         display: flex;
         justify-content: center;
-       // margin-left: 14%;
+        // margin-left: 14%;
 
         .banner-wrp {
             width: 560px;
@@ -72,7 +72,9 @@
                     }
                 }
 
-                .category_offer {}
+                .category_offer {
+                    display: block;
+                }
             }
         }
     }
@@ -137,7 +139,9 @@
                     display: flex;
                 }
 
-                .link_img {}
+                .link_img {
+                    display: block;
+                }
 
                 .link_content {
                     display: flex;

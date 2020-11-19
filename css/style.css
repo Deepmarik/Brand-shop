@@ -298,6 +298,9 @@ body {
   color: #f16d7f;
   text-transform: uppercase;
 }
+.page_main .category .banner-wrp .banner_offer .category_offer {
+  display: block;
+}
 .page_main .featured {
   width: 1600px;
 }
@@ -348,6 +351,9 @@ body {
 }
 .page_main .featured .featured_link-wrp .featured_link:hover .content_caret {
   display: flex;
+}
+.page_main .featured .featured_link-wrp .featured_link .link_img {
+  display: block;
 }
 .page_main .featured .featured_link-wrp .featured_link .link_content {
   display: flex;
@@ -667,7 +673,6 @@ body {
   color: #898989;
 }
 .main-footer .description .wrp_logo {
-  width: 604px;
   display: flex;
   justify-content: space-between;
   align-items: center;
