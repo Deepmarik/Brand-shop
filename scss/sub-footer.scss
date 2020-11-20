@@ -165,7 +165,7 @@
 
 /* main-footer */
 .main-footer {
-    width: 100%;
+    width: 72%;
     // padding: $padding-max;
     min-height: 458px;
     display: flex;
@@ -264,10 +264,10 @@
     .company {
         width: 102px;
 
-        .company_list_item {}
+       // .company_list_item {}
 
 
-        .item_link {}
+       // .item_link {}
     }
 
     .item_link {
@@ -298,7 +298,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 14%;
+    //margin: 0 0 0 14%;
 
     .brand_wrp {
         width: 260px;

@@ -1,7 +1,7 @@
 @import "variables";
 
 body {
-    width: 1600px;
+    // width: 1600px;
     margin: 0;
     padding: 0;
     background-color: $body-color;
@@ -13,18 +13,24 @@ body {
     width: $width-page;
     padding-top: 25px;
     background-color: $body-color;
-    margin-left: 14%;
+    border-bottom: 1px solid #ececec;
+
+    //margin-left: 14%;
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
 
     .header_wrp {
-        padding: $padding-block;
+       // padding: $padding-block;
         display: flex;
         justify-content: space-between;
         min-height: 100px;
-        border-bottom: 1px solid #ececec;
+        // border-bottom: 1px solid #ececec;
         box-sizing: border-box;
         /* border: 1px solid #ececec; */
         /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);*/
-        
+
 
         .wrp_logo {
             width: 604px;
@@ -219,7 +225,7 @@ body {
         justify-content: center;
         min-height: 614px;
         background-size: contain;
-       // background-position-x: right;
+        // background-position-x: right;
         background-size: 555px;
         background-repeat: no-repeat;
         background-position-x: 774px;
@@ -233,8 +239,6 @@ body {
             top: 264px;
             left: 200px;
         }
-
-        .slider_img {}
 
         .header_h1 {
             font-family: lato;

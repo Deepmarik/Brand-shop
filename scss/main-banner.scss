@@ -2,7 +2,7 @@
 
 .page_main {
     margin: 0 auto;
-    width: 72%;
+    width: 100%;
 
     .category {
         width: $width-page;
@@ -234,9 +234,9 @@
 
     /* Section Offer */
     .offer {
-        width: 100%;
+        width: 72%;
         min-height: 529px;
-        margin: 113px 0 0 19%;
+        margin: 113px 0 0 14%;
         background-color: #222224;
         //padding: $padding-max;
         background-image: url(../img/offer/2-layers-bcg.png);
