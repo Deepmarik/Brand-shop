@@ -195,17 +195,22 @@ body {
             }
         }
     }
-/* Nav */
+
+    /* Nav */
     .header_nav {
-        width: $width-page;
+        // width: $width-page;
         min-height: 51px;
+        justify-content: center;
+        display: flex;
         //background-color: aquamarine;
 
         .nav_list {
-            padding: $padding-max;
+            width: 681px;
             // background-color: bisque;
+            padding: 0;
+            justify-content: center;
             display: flex;
-            justify-content: space-between;
+            //justify-content: space-between;
 
             .list_item {
 
@@ -224,48 +229,56 @@ body {
     }
 
     .header_slider {
-        background-image: url("../img/topHeaderBack.png");
+        // background-image: url("../img/topHeaderBack.png");
         width: $width-page;
         background-color: #e8e8e8;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         min-height: 614px;
-        background-size: contain;
+        // background-size: contain;
         // background-position-x: right;
-        background-size: 555px;
-        background-repeat: no-repeat;
-        background-position-x: 774px;
-        position: relative;
+        //  background-size: 555px;
+        //  background-repeat: no-repeat;
 
-        .border_slider {
-            width: 12px;
-            height: 92px;
-            background-color: #f16d7f;
-            position: absolute;
-            top: 264px;
-            left: 200px;
-        }
 
-        .header_h1 {
-            font-family: lato;
-            font-size: 60px;
-            line-height: 1.1;
-            font-weight: 900;
-            letter-spacing: 0.025em;
-            color: #222222;
-            padding: 0 0 0 14%;
-        }
+        .slider-slogan {
+            min-height: 614px;
+            position: relative;
+            background: url("../img/topHeaderBack.png") no-repeat right 40px top;
+            background-size: contain;
+            // background-position-x: right;
+            background-size: 555px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
-        .header_h2 {
-            font-size: 40px;
-            padding: 0 0 0 14%;
-            margin: 0;
-            line-height: 42px;
+            .border_slider {
+                width: 12px;
+                height: 92px;
+                background-color: #f16d7f;
+                position: absolute;
+                top: 264px;
+                left: 136px;
+            }
 
-            .h2-fashion_style {
-                //font-size: 40px;
-                color: #f16d7f;
+            .header_h1 {
+                font-family: lato;
+                font-size: 60px;
+                line-height: 1.1;
+                font-weight: 900;
+                letter-spacing: 0.025em;
+                color: #222222;
+                padding: 0 0 0 14%;
+            }
+
+            .header_h2 {
+                font-size: 40px;
+                padding: 0 0 0 14%;
+                margin: 0;
+                line-height: 42px;
+
+                .h2-fashion_style {
+                    //font-size: 40px;
+                    color: #f16d7f;
+                }
             }
         }
     }

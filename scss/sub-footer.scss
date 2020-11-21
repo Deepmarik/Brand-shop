@@ -2,13 +2,20 @@
 
 .sub-footer {
     width: $width-page;
-    background-image: url(../img/subscribe-bcg.png);
+    background: url(../img/subscribe-bcg.png) no-repeat, #f2f2f280;
+    background-size: cover;
+    background-position: left bottom;
+    background-blend-mode: overlay;
     min-height: 438px;
     //padding: $padding-block;
     margin: 97px 0 0 0;
-    background-position: center;
-    background-repeat: no-repeat;
+    // background-position: center;
     display: flex;
+
+    .container {
+        height: inherit;
+        display: flex;
+    }
 
     .feedback {
         width: $width-page / 2;
@@ -57,7 +64,7 @@
             flex-wrap: wrap;
             padding-left: 100px;
             flex-direction: column;
-            margin: 111px 0 0 230px;
+            margin: 111px 0 0;
             box-sizing: border-box;
 
             &:hover .middle:hover {
@@ -126,28 +133,29 @@
 
         .form_subscribe {
             width: 386px;
-            height: 46px;
+            height: 48px;
             border-radius: 23px;
             background-color: #e1e1e1;
             display: flex;
             justify-content: space-between;
             margin: 35px 0 0 0;
+            box-sizing: border-box;
 
             .sub_email {
-                height: 46px;
+                height: 48px;
                 background-color: #e1e1e1;
-                height: 46px;
                 border-radius: 23px 0 0 23px;
                 background-color: #e1e1e1;
                 overflow: hidden;
                 outline: none;
                 border: none;
                 text-align: center;
+                box-sizing: border-box;
             }
 
             .sub_btn {
                 width: 104px;
-                height: 46px;
+                height: 48px;
                 border-radius: 0 23px 23px 0;
                 border: none;
                 background-color: $btn-color;
@@ -264,10 +272,10 @@
     .company {
         width: 102px;
 
-       // .company_list_item {}
+        // .company_list_item {}
 
 
-       // .item_link {}
+        // .item_link {}
     }
 
     .item_link {

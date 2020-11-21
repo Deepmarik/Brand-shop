@@ -79,12 +79,20 @@
 
     /* Section featured */
     .featured {
-        width: $width-page;
+        width: 1140px;
+        margin: 0 auto;
+
+        // width: $width-page;
         //margin-left: 14%;
         //padding: $padding-block;
+        .container {
+            width: 1140px;
+            margin: 0 auto;
+        }
+
 
         .featured_hdr {
-            width: $width-page;
+            // width: $width-page;
             display: block;
             color: #222222;
             font-family: lato;
@@ -99,7 +107,7 @@
 
         .featured_txt {
             margin: 0 0 59px 0;
-            width: $width-page;
+            // width: $width-page;
             display: block;
             text-align: center;
             color: #9f9f9f;
@@ -110,17 +118,14 @@
             letter-spacing: normal;
             //line-height: 54px;
         }
-        .container {
-            width: 1140px;
-            margin: 0 auto;
-        }
+
         .featured_link-wrp {
             display: flex;
             flex-wrap: wrap;
-            width: 72%;
+            //width: 72%;
             /* margin: auto; */
             justify-content: space-between;
-            margin: 0 auto;
+            // margin: 0 auto;
 
             .featured_link {
                 text-decoration: $link-decor;
@@ -233,13 +238,16 @@
                 color: #222222;
             }
         }
+
     }
+
+    //featured
 
     /* Section Offer */
     .offer {
-        width: 72%;
+        //width: 72%;
         min-height: 529px;
-        margin: 113px 0 0 14%;
+        margin: 113px auto 0;
         background-color: #222224;
         //padding: $padding-max;
         background-image: url(../img/offer/2-layers-bcg.png);

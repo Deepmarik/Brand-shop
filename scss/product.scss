@@ -191,7 +191,7 @@ body {
 
 
         .nav_list {
-            padding: $padding-max;
+          //  padding: $padding-max;
             // background-color: bisque;
             display: flex;
             justify-content: space-between;
@@ -286,7 +286,7 @@ body {
 .main-shoping_cart {
     //width: $width-page;
     margin: $margin;
-    width: 72%;
+   //width: 72%;
 
     .shp-cart-head-wrp {
         width: 100%;
