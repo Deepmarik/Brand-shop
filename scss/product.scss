@@ -2,7 +2,7 @@
 @import "mixins";
 
 body {
-   // width: 1600px;
+    // width: 1600px;
     // margin: $margin;
     padding: 0;
     background-color: $body-color;
@@ -18,15 +18,15 @@ body {
     border-bottom: 1px solid #ececec;
 
     .header_wrp {
-       // padding: $padding-block;
+        // padding: $padding-block;
         display: flex;
         justify-content: space-between;
         min-height: 100px;
-       // border-bottom: 1px solid #ececec;
+        // border-bottom: 1px solid #ececec;
         box-sizing: border-box;
         /* border: 1px solid #ececec; */
         /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);*/
-        
+
         .wrp_logo {
             width: 604px;
             display: flex;
@@ -191,7 +191,7 @@ body {
 
 
         .nav_list {
-          //  padding: $padding-max;
+            //  padding: $padding-max;
             // background-color: bisque;
             display: flex;
             justify-content: space-between;
@@ -232,15 +232,16 @@ body {
     }
 
     .breadcrumb {
-        width: 72%;
-        padding: $padding-block;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+        width: 100%;
         min-height: 148px;
         background-color: #f8f3f4;
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
 
         .bread_head {
             font-family: lato;
@@ -286,19 +287,19 @@ body {
 .main-shoping_cart {
     //width: $width-page;
     margin: $margin;
-   //width: 72%;
+    //width: 72%;
 
     .shp-cart-head-wrp {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 90px 0 0 19%;
+        margin: 90px 0 0;
         padding-bottom: 20px;
         box-sizing: border-box;
         border-bottom: 1px solid #eaeaea;
 
-       // .head-left-wrp {}
+        // .head-left-wrp {}
 
         .head-shop-style {
             font-family: lato;
@@ -319,7 +320,7 @@ body {
 
     /* Section product details */
     .ware-top {
-        margin: 22px 0 0 19%;
+        margin: 22px 0 0;
         background-image: url(../img/shoping-cart/product_top.png);
         background-position: left;
         background-repeat: no-repeat;
@@ -341,7 +342,7 @@ body {
     .prdct-item {
         //background-color: aqua;
         //width: 281px;
-        margin-left: 19%;
+       // margin-left: 19%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -436,7 +437,7 @@ body {
     }
 
     .ending-shop {
-        margin-left: 19%;
+       //margin-left: 19%;
         width: 100%;
 
         .ending-shop_button {
@@ -495,7 +496,7 @@ body {
                     box-sizing: border-box;
                     margin-bottom: 20px;
 
-                   // .option_style {}
+                    // .option_style {}
                 }
 
                 .input_style {
@@ -654,9 +655,4 @@ body {
     .shop-footer {
         margin: 97px 0 0 0;
     }
-
-    /* .shoping-footer {
-        margin-left: 14%;
-        width: 100%;
-    } */
 }

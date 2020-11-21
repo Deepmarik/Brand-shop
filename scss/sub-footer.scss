@@ -299,14 +299,20 @@
 
 /* Footer-page */
 .page-footer {
-    width: 72.6%;
+    // width: 72.6%;
     height: 79px;
     background-color: #e6e6e6;
-    padding: $padding-block;
+
+    //  padding: $padding-block;
     display: flex;
     justify-content: space-between;
     align-items: center;
     //margin: 0 0 0 14%;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .brand_wrp {
         width: 260px;
