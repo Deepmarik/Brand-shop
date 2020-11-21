@@ -1,12 +1,17 @@
 @import "variables";
 
 body {
-    // width: 1600px;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: $body-color;
     font-family: "lato", "sans-serif";
 
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 .page_header {
@@ -16,20 +21,22 @@ body {
     border-bottom: 1px solid #ececec;
 
     //margin-left: 14%;
-    .container {
-        width: 1140px;
-        margin: 0 auto;
-    }
+
 
     .header_wrp {
-       // padding: $padding-block;
+        // padding: $padding-block;
         display: flex;
         justify-content: space-between;
         min-height: 100px;
         // border-bottom: 1px solid #ececec;
         box-sizing: border-box;
+
         /* border: 1px solid #ececec; */
         /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);*/
+        .container {
+            width: 1140px;
+            margin: 0 auto;
+        }
 
 
         .wrp_logo {
@@ -188,7 +195,7 @@ body {
             }
         }
     }
-
+/* Nav */
     .header_nav {
         width: $width-page;
         min-height: 51px;
