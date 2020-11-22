@@ -1073,11 +1073,10 @@ body {
   /* Section product details */
 }
 .main-shoping_cart .shp-cart-head-wrp {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 90px 0 0;
+  margin: 90px auto 0;
   padding-bottom: 20px;
   box-sizing: border-box;
   border-bottom: 1px solid #eaeaea;
@@ -1117,7 +1116,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 .main-shoping_cart .prdct-item .head-right-wrp {
   width: 625px;
@@ -1193,9 +1191,6 @@ body {
   font-size: 13px;
   font-weight: 300;
   color: #6f6e6e;
-}
-.main-shoping_cart .ending-shop {
-  width: 100%;
 }
 .main-shoping_cart .ending-shop .ending-shop_button {
   display: flex;
