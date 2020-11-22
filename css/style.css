@@ -1497,5 +1497,53 @@ body {
   color: #5e5e5e;
   margin-top: 67px;
 }
+.main_single-page .women-collection-wrp .collection-details-wrp .material-design {
+  width: 334px;
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0 37px;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .material-design .material {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  color: #b9b9b9;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .material-design .material .material_span {
+  color: #2f2f2f;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .material-design .designer {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  color: #b9b9b9;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .material-design .designer .designer_span {
+  color: #2f2f2f;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-prais_span {
+  font-family: lato;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ef5b70;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose {
+  width: 537px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item .choose-color_label {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.71;
+  color: #2f2f2f;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item #choose-color_select {
+  padding-left: 37px;
+}
 
 /*# sourceMappingURL=style.css.map */
