@@ -222,7 +222,23 @@
                         padding-left: 17px;
                     }
                 }
-                
+
+            }
+
+            .women-collection_button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 55px;
+                border: solid 1px #ef5b70;
+                background-color: #ffffff;
+                outline: none;
+                font-family: inherit;
+                font-size: 16px;
+                font-weight: 900;
+                color: #ef5b70;
+                margin-top: 28px;
             }
         }
     }
