@@ -208,6 +208,7 @@ body {
             width: 681px;
             // background-color: bisque;
             padding: 0;
+            margin: 0;
             justify-content: center;
             display: flex;
             //justify-content: space-between;
@@ -217,12 +218,15 @@ body {
                 text-transform: uppercase;
                 // background-color: bisque;
                 list-style-type: $list-style;
+                height: 51px;
+                box-sizing: border-box;
 
                 .item_link {
                     font-family: "lato";
                     text-decoration: $link-decor;
                     color: $color;
                     font-weight: 700;
+                    line-height: 51px;
                 }
             }
         }

@@ -19,13 +19,18 @@ body {
 
     .header_wrp {
         // padding: $padding-block;
-        display: flex;
-        justify-content: space-between;
-        min-height: 100px;
-        // border-bottom: 1px solid #ececec;
+        //display: flex;
+       // justify-content: space-between;
+      //  min-height: 100px;
+        border-bottom: 1px solid #ececec;
         box-sizing: border-box;
+
         /* border: 1px solid #ececec; */
         /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);*/
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
 
         .wrp_logo {
             width: 604px;
@@ -203,14 +208,15 @@ body {
                 min-width: 75px;
                 text-align: center;
 
-                &:hover::after {
-                    content: "";
-                    width: 75px;
-                    height: 3px;
-                    background-color: $btn-color;
+                &:hover {
+                    // content: "";
+                    // width: 75px;
+                    // height: 3px;
+                    //  background-color: $btn-color;
                     display: block;
-                    margin-top: 28px;
-                    //text-align: center;
+                    // margin-top: 15px;
+                    text-align: center;
+                    border-bottom: 3px solid #ef5b70;
                 }
 
 
@@ -235,6 +241,7 @@ body {
         width: 100%;
         min-height: 148px;
         background-color: #f8f3f4;
+        display: flex;
 
         .container {
             display: flex;
@@ -290,7 +297,7 @@ body {
     //width: 72%;
 
     .shp-cart-head-wrp {
-       // width: 100%;
+        // width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -342,12 +349,12 @@ body {
     .prdct-item {
         //background-color: aqua;
         //width: 281px;
-       // margin-left: 19%;
+        // margin-left: 19%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-      //  width: 100%;
+        //  width: 100%;
 
         .head-right-wrp {
             width: 625px;
@@ -437,8 +444,8 @@ body {
     }
 
     .ending-shop {
-       //margin-left: 19%;
-       // width: 100%;
+        //margin-left: 19%;
+        // width: 100%;
 
         .ending-shop_button {
             display: flex;
