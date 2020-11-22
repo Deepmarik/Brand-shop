@@ -1387,13 +1387,115 @@ body {
 
 .main_single-page {
   margin: 0 auto;
+  /* Women Collection */
 }
 .main_single-page .main_slider {
   width: 100%;
-  background: url(../img/single_bckg.png) no-repeat;
+  background: url(../img/single_bckg.png) no-repeat center 0px;
   height: 777px;
   background-color: #f7f7f7;
   border: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_single-page .main_slider .arrow {
+  width: 47px;
+  height: 47px;
+  background-color: #2a2a2a24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_single-page .main_slider .arrow .arrow-left_img {
+  height: 19px;
+  fill: #fff;
+}
+.main_single-page .main_slider .arrow .arrow-right_img {
+  height: 19px;
+  fill: #fff;
+}
+.main_single-page .main_slider .arrow:hover {
+  background-color: #aaaaaa;
+}
+.main_single-page .main_slider .arrow:hover .arrow-left_img {
+  fill: #2a2a2a;
+}
+.main_single-page .main_slider .arrow:hover .arrow-right_img {
+  fill: #2a2a2a;
+}
+.main_single-page .main_slider .arrow {
+  width: 47px;
+  height: 47px;
+  background-color: #2a2a2a24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_single-page .main_slider .arrow .arrow-right_img {
+  height: 19px;
+  fill: #fff;
+}
+.main_single-page .women-collection-wrp {
+  min-height: 730px;
+  background-color: #ffffff;
+  background-color: bisque;
+  border: 1px solid #eaeaea;
+  margin: -86px auto;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp {
+  width: 642px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 73px;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection_header {
+  font-family: lato;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #f16d7f;
+  line-height: 1.71;
+  position: relative;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection_header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  width: 64px;
+  left: calc(50% - 64px / 2);
+  height: 3px;
+  background: #f16d7f;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection_header-second {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  line-height: 1.33;
+  margin-top: 18px;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection_txt {
+  font-family: lato;
+  font-size: 14px;
+  font-weight: 300;
+  color: #5e5e5e;
+  display: flex;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  text-align: justify;
+  color: #5e5e5e;
+  margin-top: 67px;
 }
 
 /*# sourceMappingURL=style.css.map */
