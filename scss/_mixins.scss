@@ -3,3 +3,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin choose_select-style-mix {
+    padding-left: 37px;
+    font-family: lato;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #bcbcbc;
+
+}

@@ -1527,6 +1527,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #ef5b70;
+  margin-bottom: 107px;
 }
 .main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose {
   width: 537px;
@@ -1534,7 +1535,11 @@ body {
   align-items: flex-start;
   justify-content: space-between;
 }
-.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item .choose-color_label {
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item {
+  display: flex;
+  flex-direction: column;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item .choose-style_label {
   font-size: 14px;
   font-weight: 900;
   line-height: 1.71;
@@ -1542,8 +1547,46 @@ body {
   margin-bottom: 16px;
   display: inline-block;
 }
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item .choose_select-style {
+  width: 144px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  outline: none;
+}
 .main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item #choose-color_select {
   padding-left: 37px;
+  font-family: lato;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #bcbcbc;
+  background: url(../img/rectangle_red.png) no-repeat 14px center white;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item #choose-color_select .choose-option_style {
+  font-family: lato;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #bcbcbc;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item #choose-size_select {
+  padding-left: 37px;
+  font-family: lato;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #bcbcbc;
+  padding-left: 15px;
+}
+.main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item #choose-quantity_select {
+  padding-left: 37px;
+  font-family: lato;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #bcbcbc;
+  padding-left: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */

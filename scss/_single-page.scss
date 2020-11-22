@@ -168,6 +168,7 @@
                 line-height: 24px;
                 font-weight: 700;
                 color: #ef5b70;
+                margin-bottom: 107px;
             }
 
             .women-collection-choose {
@@ -177,8 +178,10 @@
                 justify-content: space-between;
 
                 .choose_item {
+                    display: flex;
+                    flex-direction: column;
 
-                    .choose-color_label {
+                    .choose-style_label {
                         font-size: 14px;
                         font-weight: 900;
                         line-height: 1.71;
@@ -187,10 +190,39 @@
                         display: inline-block;
                     }
 
+                    .choose_select-style {
+                        width: 144px;
+                        height: 35px;
+                        background-color: #ffffff;
+                        border: 1px solid #eaeaea;
+                        outline: none;
+                    }
+
                     #choose-color_select {
-                        padding-left: 37px;
+                        @include choose_select-style-mix;
+                        background: url(../img/rectangle_red.png) no-repeat 14px center white;
+
+
+                        .choose-option_style {
+                            font-family: lato;
+                            font-size: 13px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            color: #bcbcbc;
+                        }
+                    }
+
+                    #choose-size_select {
+                        @include choose_select-style-mix;
+                        padding-left: 15px;
+                    }
+
+                    #choose-quantity_select {
+                        @include choose_select-style-mix;
+                        padding-left: 17px;
                     }
                 }
+                
             }
         }
     }
