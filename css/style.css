@@ -79,7 +79,7 @@ body {
 }
 .page_header .header_wrp .wrp_logo .logo_header .logo_name {
   color: #222222;
-  font-family: "lato";
+  font-family: "lato",sans-serif;
   font-size: 27px;
   font-weight: 300;
   font-style: normal;
@@ -88,7 +88,7 @@ body {
 }
 .page_header .header_wrp .wrp_logo .logo_header .logo_name .logo_letter {
   color: #f16d7f;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.68px;
@@ -104,7 +104,7 @@ body {
 .page_header .header_wrp .header_search .form_search_btn {
   width: 87px;
   color: #222222;
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -162,7 +162,7 @@ body {
   background-color: #f16d7f;
   text-decoration: none;
   color: #ffffff;
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 15px;
   font-weight: 400;
   font-style: normal;
@@ -201,7 +201,7 @@ body {
   box-sizing: border-box;
 }
 .page_header .header_nav .nav_list .list_item .item_link {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   text-decoration: none;
   color: #222222;
   font-weight: 700;
@@ -217,7 +217,6 @@ body {
   position: relative;
   background: url("../img/topHeaderBack.png") no-repeat right 40px top;
   background-size: contain;
-  background-size: 555px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,7 +230,7 @@ body {
   left: 136px;
 }
 .page_header .header_slider .slider-slogan .header_h1 {
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 60px;
   line-height: 1.1;
   font-weight: 900;
@@ -298,7 +297,7 @@ body {
   left: 0;
 }
 .page_main .category .banner-wrp .banner_offer .banner_txt-wrp .bnr_txt-top {
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 900;
@@ -325,7 +324,7 @@ body {
 .page_main .featured .featured_hdr {
   display: block;
   color: #222222;
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
@@ -339,7 +338,7 @@ body {
   display: block;
   text-align: center;
   color: #9f9f9f;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -360,7 +359,7 @@ body {
   filter: brightness(50%);
 }
 .page_main .featured .featured_link-wrp .featured_link:hover .link_content {
-  box-shadow: 0 5px 8px 0px #00000026;
+  box-shadow: 0 5px 8px 0 #00000026;
 }
 .page_main .featured .featured_link-wrp .featured_link:hover .content_caret {
   display: flex;
@@ -377,7 +376,7 @@ body {
 }
 .page_main .featured .featured_link-wrp .featured_link .link_content .content-txt {
   color: #222222;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   font-weight: 400;
   font-style: normal;
@@ -388,7 +387,7 @@ body {
 }
 .page_main .featured .featured_link-wrp .featured_link .link_content .content-price {
   color: #f16d7f;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -402,7 +401,7 @@ body {
   height: 39px;
   border: 1px solid #ffffff;
   color: #ffffff;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   font-weight: 700;
   font-style: normal;
@@ -425,7 +424,7 @@ body {
   background-color: #f16d7f;
   text-decoration: none;
   color: #ffffff;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -472,7 +471,7 @@ body {
 }
 .page_main .offer .offer-sale-wrp .txt-top {
   color: #ffffff;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 54px;
   font-weight: 700;
   font-style: normal;
@@ -505,7 +504,7 @@ body {
   top: 0;
 }
 .page_main .offer .free-sales-quality .free-header {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
@@ -514,7 +513,7 @@ body {
 }
 .page_main .offer .free-sales-quality .offer_txt {
   color: #fbfbfb;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -582,7 +581,7 @@ body {
   fill: #f16d7f;
 }
 .sub-footer .feedback .feedback-wrp .feedback_txt {
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -599,7 +598,7 @@ body {
   width: 84px;
 }
 .sub-footer .feedback .feedback-wrp .feedback_autor .feedback_autor-style {
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -614,7 +613,7 @@ body {
   align-items: center;
 }
 .sub-footer .subscribe .sub_txt-top {
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-weight: 400;
   /* Text style for "Subscribe" */
   font-size: 24px;
@@ -624,7 +623,7 @@ body {
 }
 .sub-footer .subscribe .sub_txt-btm {
   color: #222224;
-  font-family: lato;
+  font-family: lato, sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -643,7 +642,6 @@ body {
 }
 .sub-footer .subscribe .form_subscribe .sub_email {
   height: 48px;
-  background-color: #e1e1e1;
   border-radius: 23px 0 0 23px;
   background-color: #e1e1e1;
   overflow: hidden;
@@ -659,7 +657,7 @@ body {
   border: none;
   background-color: #f16d7f;
   outline: none;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.025em;
@@ -900,7 +898,7 @@ body {
 }
 .page_header .header_wrp .wrp_logo .logo_header .logo_name {
   color: #222222;
-  font-family: "lato";
+  font-family: "lato",sans-serif;
   font-size: 27px;
   font-weight: 300;
   font-style: normal;
@@ -909,7 +907,7 @@ body {
 }
 .page_header .header_wrp .wrp_logo .logo_header .logo_name .logo_letter {
   color: #f16d7f;
-  font-family: "lato";
+  font-family: "lato",sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.68px;
@@ -925,7 +923,7 @@ body {
 .page_header .header_wrp .header_search .form_search_btn {
   width: 87px;
   color: #222222;
-  font-family: Lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -982,7 +980,7 @@ body {
   background-color: #f16d7f;
   text-decoration: none;
   color: #ffffff;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 15px;
   font-weight: 400;
   font-style: normal;
@@ -1022,7 +1020,7 @@ body {
   border-bottom: 3px solid #ef5b70;
 }
 .page_header .header_nav .nav_list .list_item .item_link {
-  font-family: "lato";
+  font-family: "lato",sans-serif;
   text-decoration: none;
   color: #222222;
   font-weight: 700;
@@ -1045,7 +1043,7 @@ body {
   align-items: center;
 }
 .page_header .breadcrumb .bread_head {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 24px;
   line-height: 20px;
   font-weight: 900;
@@ -1062,7 +1060,7 @@ body {
   list-style-type: none;
 }
 .page_header .breadcrumb .bread_menu .bread_menu-list .bread-list_item .bread_item_link {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
@@ -1090,7 +1088,7 @@ body {
   border-bottom: 1px solid #eaeaea;
 }
 .main-shoping_cart .shp-cart-head-wrp .head-shop-style {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 700;
@@ -1178,7 +1176,7 @@ body {
   justify-content: space-evenly;
 }
 .main-shoping_cart .prdct-item .prdct-name {
-  font-family: Lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1189,13 +1187,13 @@ body {
   margin-left: 121px;
 }
 .main-shoping_cart .prdct-item .prdct-size-color .color-style {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #575757;
 }
 .main-shoping_cart .prdct-item .prdct-size-color .size-style {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   font-weight: 300;
   color: #6f6e6e;
@@ -1210,7 +1208,7 @@ body {
   height: 50px;
   background-color: #ffffff;
   border: 1px solid #eaeaea;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 700;
@@ -1230,7 +1228,7 @@ body {
   width: 100%;
 }
 .main-shoping_cart .ending-shop .shippingAddress-wrp .shippping-adress_form .shipping-adress_header {
-  font-family: Lato;
+  font-family: lato,sans-serif;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 700;
@@ -1283,7 +1281,7 @@ body {
   width: 355px;
 }
 .main-shoping_cart .ending-shop .couponDiscount-wrp .couponDiscount_header {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 700;
@@ -1461,7 +1459,6 @@ body {
 .main_single-page .women-collection-wrp .collection-details-wrp .women-collection_header {
   font-family: lato;
   font-size: 14px;
-  line-height: 24px;
   font-weight: 700;
   color: #f16d7f;
   line-height: 1.71;
@@ -1480,9 +1477,8 @@ body {
   background: #f16d7f;
 }
 .main_single-page .women-collection-wrp .collection-details-wrp .women-collection_header-second {
-  font-family: Lato;
+  font-family: lato,sans-serif;
   font-size: 18px;
-  line-height: 24px;
   font-weight: 900;
   text-transform: uppercase;
   color: #4d4d4d;
@@ -1490,7 +1486,7 @@ body {
   margin-top: 18px;
 }
 .main_single-page .women-collection-wrp .collection-details-wrp .women-collection_txt {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #5e5e5e;
@@ -1506,7 +1502,7 @@ body {
   margin: 14px 0 37px;
 }
 .main_single-page .women-collection-wrp .collection-details-wrp .material-design .material {
-  font-family: Lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #b9b9b9;
@@ -1515,7 +1511,7 @@ body {
   color: #2f2f2f;
 }
 .main_single-page .women-collection-wrp .collection-details-wrp .material-design .designer {
-  font-family: Lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #b9b9b9;
@@ -1524,7 +1520,7 @@ body {
   color: #2f2f2f;
 }
 .main_single-page .women-collection-wrp .collection-details-wrp .women-collection-prais_span {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
@@ -1566,7 +1562,7 @@ body {
   background: url(../img/rectangle_red.png) no-repeat 14px center white;
 }
 .main_single-page .women-collection-wrp .collection-details-wrp .women-collection-choose .choose_item #choose-color_select .choose-option_style {
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -1628,7 +1624,7 @@ body {
 .main_single-page .featured .featured_hdr {
   display: block;
   color: #222222;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
@@ -1643,7 +1639,7 @@ body {
   display: block;
   text-align: center;
   color: #9f9f9f;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -1664,7 +1660,7 @@ body {
   filter: brightness(50%);
 }
 .main_single-page .featured .featured_link-wrp .featured_link:hover .link_content {
-  box-shadow: 0 5px 8px 0px #00000026;
+  box-shadow: 0 5px 8px 0 #00000026;
 }
 .main_single-page .featured .featured_link-wrp .featured_link:hover .content_caret {
   display: flex;
@@ -1681,7 +1677,7 @@ body {
 }
 .main_single-page .featured .featured_link-wrp .featured_link .link_content .content-txt {
   color: #222222;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   font-weight: 400;
   font-style: normal;
@@ -1692,7 +1688,7 @@ body {
 }
 .main_single-page .featured .featured_link-wrp .featured_link .link_content .content-price {
   color: #f16d7f;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -1706,7 +1702,7 @@ body {
   height: 39px;
   border: 1px solid #ffffff;
   color: #ffffff;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 13px;
   font-weight: 700;
   font-style: normal;
@@ -1729,7 +1725,7 @@ body {
   background-color: #f16d7f;
   text-decoration: none;
   color: #ffffff;
-  font-family: lato;
+  font-family: lato,sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -2075,6 +2071,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.feedback-boot {
+  margin: 0;
 }
 
 /*!

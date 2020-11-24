@@ -84,7 +84,7 @@
             .women-collection_header {
                 font-family: lato;
                 font-size: 14px;
-                line-height: 24px;
+               // line-height: 24px;
                 font-weight: 700;
                 color: $btn-color;
                 line-height: 1.71;
@@ -106,9 +106,9 @@
             }
 
             .women-collection_header-second {
-                font-family: Lato;
+                font-family: lato,sans-serif;
                 font-size: 18px;
-                line-height: 24px;
+                //line-height: 24px;
                 font-weight: 900;
                 text-transform: uppercase;
                 color: #4d4d4d;
@@ -117,7 +117,7 @@
             }
 
             .women-collection_txt {
-                font-family: lato;
+                font-family: lato,sans-serif;
                 font-size: 14px;
                 // line-height: 24px;
                 font-weight: 300;
@@ -136,7 +136,7 @@
                 margin: 14px 0 37px;
 
                 .material {
-                    font-family: Lato;
+                    font-family: lato,sans-serif;
                     font-size: 14px;
                     // line-height: 24px;
                     font-weight: 700;
@@ -148,7 +148,7 @@
                 }
 
                 .designer {
-                    font-family: Lato;
+                    font-family: lato,sans-serif;
                     font-size: 14px;
                     //line-height: 24px;
                     font-weight: 700;
@@ -161,7 +161,7 @@
             }
 
             .women-collection-prais_span {
-                font-family: lato;
+                font-family: lato,sans-serif;
                 font-size: 24px;
                 line-height: 24px;
                 font-weight: 700;
@@ -202,7 +202,7 @@
 
 
                         .choose-option_style {
-                            font-family: lato;
+                            font-family: lato,sans-serif;
                             font-size: 13px;
                             line-height: 24px;
                             font-weight: 400;
@@ -274,7 +274,7 @@
             // width: $width-page;
             display: block;
             color: #222222;
-            font-family: lato;
+            font-family: lato,sans-serif;
             font-size: 30px;
             font-weight: 700;
             font-style: normal;
@@ -291,7 +291,7 @@
             display: block;
             text-align: center;
             color: #9f9f9f;
-            font-family: lato;
+            font-family: lato,sans-serif;
             font-size: 14px;
             font-weight: 400;
             font-style: normal;
@@ -317,7 +317,7 @@
                 }
 
                 &:hover .link_content {
-                    box-shadow: 0 5px 8px 0px #00000026;
+                    box-shadow: 0 5px 8px 0 #00000026;
                 }
 
                 &:hover .content_caret {
@@ -337,7 +337,7 @@
 
                     .content-txt {
                         color: #222222;
-                        font-family: lato;
+                        font-family: lato,sans-serif;
                         font-size: 13px;
                         font-weight: 400;
                         font-style: normal;
@@ -349,7 +349,7 @@
 
                     .content-price {
                         color: #f16d7f;
-                        font-family: lato;
+                        font-family: lato,sans-serif;
                         font-size: 16px;
                         font-weight: 700;
                         font-style: normal;
@@ -365,7 +365,7 @@
                     height: 39px;
                     border: 1px solid #ffffff;
                     color: #ffffff;
-                    font-family: lato;
+                    font-family: lato,sans-serif;
                     font-size: 13px;
                     font-weight: 700;
                     font-style: normal;
@@ -392,7 +392,7 @@
             background-color: $btn-color;
             text-decoration: $link-decor;
             color: #ffffff;
-            font-family: lato;
+            font-family: lato,sans-serif;
             font-size: 16px;
             font-weight: 700;
             font-style: normal;

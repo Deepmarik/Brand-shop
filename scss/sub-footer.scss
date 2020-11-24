@@ -73,7 +73,7 @@
             }
 
             .feedback_txt {
-                font-family: lato;
+                font-family: lato, sans-serif;
                 font-size: 16px;
                 line-height: 26px;
                 font-weight: 400;
@@ -92,7 +92,7 @@
                 width: 84px;
 
                 .feedback_autor-style {
-                    font-family: lato;
+                    font-family: lato, sans-serif;
                     font-size: 16px;
                     line-height: 26px;
                     font-weight: 700;
@@ -111,7 +111,7 @@
         align-items: center;
 
         .sub_txt-top {
-            font-family: lato;
+            font-family: lato, sans-serif;
             font-weight: 400;
             /* Text style for "Subscribe" */
             font-size: 24px;
@@ -123,7 +123,7 @@
 
         .sub_txt-btm {
             color: #222224;
-            font-family: lato;
+            font-family: lato, sans-serif;
             font-size: 14px;
             font-weight: 400;
             font-style: normal;
@@ -143,7 +143,6 @@
 
             .sub_email {
                 height: 48px;
-                background-color: #e1e1e1;
                 border-radius: 23px 0 0 23px;
                 background-color: #e1e1e1;
                 overflow: hidden;
@@ -160,7 +159,7 @@
                 border: none;
                 background-color: $btn-color;
                 outline: none;
-                font-family: lato;
+                font-family: lato,sans-serif;
                 font-size: 14px;
                 //line-height: 54px;
                 font-weight: 400;

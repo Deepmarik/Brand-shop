@@ -59,7 +59,7 @@ body {
 
                 .logo_name {
                     color: #222222;
-                    font-family: "lato";
+                    font-family: "lato",sans-serif;
                     font-size: 27px;
                     font-weight: 300;
                     font-style: normal;
@@ -71,7 +71,7 @@ body {
 
                     .logo_letter {
                         color: $btn-color;
-                        font-family: "lato";
+                        font-family: "lato", sans-serif;
                         font-weight: 700;
                         font-style: normal;
                         letter-spacing: 0.68px;
@@ -95,7 +95,7 @@ body {
             .form_search_btn {
                 width: 87px;
                 color: #222222;
-                font-family: lato;
+                font-family: lato, sans-serif;
                 font-size: 14px;
                 font-weight: 300;
                 font-style: normal;
@@ -167,7 +167,7 @@ body {
                 background-color: $btn-color;
                 text-decoration: $link-decor;
                 color: #ffffff;
-                font-family: lato;
+                font-family: lato, sans-serif;
                 font-size: 15px;
                 font-weight: 400;
                 font-style: normal;
@@ -222,7 +222,7 @@ body {
                 box-sizing: border-box;
 
                 .item_link {
-                    font-family: "lato";
+                    font-family: "lato", sans-serif;
                     text-decoration: $link-decor;
                     color: $color;
                     font-weight: 700;
@@ -249,7 +249,7 @@ body {
             background: url("../img/topHeaderBack.png") no-repeat right 40px top;
             background-size: contain;
             // background-position-x: right;
-            background-size: 555px;
+           // background-size: 555px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -264,7 +264,7 @@ body {
             }
 
             .header_h1 {
-                font-family: lato;
+                font-family: lato, sans-serif;
                 font-size: 60px;
                 line-height: 1.1;
                 font-weight: 900;
