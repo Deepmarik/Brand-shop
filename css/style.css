@@ -1751,6 +1751,91 @@ body {
   color: #222222;
 }
 
+.main-boot {
+  margin-top: 60px;
+}
+.main-boot .row .col-md-3 .accordion {
+  overflow-anchor: none;
+}
+.main-boot .row .col-md-3 .accordion .card {
+  overflow: hidden;
+}
+.main-boot .row .col-md-3 .accordion .navUnit {
+  border: none;
+  border-radius: 0;
+}
+.main-boot .row .col-md-3 .accordion .navUnit:not(:last-child) {
+  margin-bottom: 18px;
+}
+.main-boot .row .col-md-3 .accordion .navUnit nav a {
+  display: block;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 33px;
+}
+.main-boot .row .col-md-3 .accordion .navUnit .navTitle {
+  background: none;
+  border-radius: 0 !important;
+  padding: 14px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #ebebeb;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.main-boot .row .col-md-3 .accordion .navUnit .navTitle:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 5px;
+  height: 49px;
+  background-color: #ef5b70;
+}
+.main-boot .row .col-md-3 .accordion .navUnit .navTitle i {
+  position: relative;
+  top: 4px;
+}
+.main-boot .row .col-md-3 .accordion .fa-caret-down {
+  content: "\f0d7";
+}
+.main-boot .row .col-md-9 .productAdjustment {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-boot .row .col-md-9 .productAdjustment .productMain {
+  width: 200px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productMain .adjustmentTitle {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productMain .adjustmentLinks {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #dfdfdf;
+  margin-left: -7px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productMain .adjustmentLinks__link {
+  color: #6f6e6e;
+  padding-left: 7px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productMain .adjustmentLinks__link::after {
+  content: '|';
+  margin-left: 7px;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
