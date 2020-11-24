@@ -1804,6 +1804,9 @@ body {
 .main-boot .row .col-md-3 .accordion .fa-caret-down {
   content: "\f0d7";
 }
+.main-boot .row .col-md-3 .accordion .card-body {
+  box-sizing: border-box;
+}
 .main-boot .row .col-md-9 .productAdjustment {
   display: flex;
   justify-content: space-between;
@@ -1834,6 +1837,119 @@ body {
 .main-boot .row .col-md-9 .productAdjustment .productMain .adjustmentLinks__link::after {
   content: '|';
   margin-left: 7px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productSize {
+  width: 280px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productSize .adjustmentTitle {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productSize .adjustmentSizeInputs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -17px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productSize .adjustmentSizeInputs__wrp {
+  width: 70px;
+  padding-left: 17px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productSize .adjustmentSizeInputs__input {
+  position: relative;
+}
+.main-boot .row .col-md-9 .productAdjustment .productSize .adjustmentSizeInputs__input [type="checkbox"]::after {
+  content: '';
+  width: 13px;
+  height: 13px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: white;
+  border: 1px solid #ebebeb;
+}
+.main-boot .row .col-md-9 .productAdjustment .productSize .adjustmentSizeInputs__label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-family: lato;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #6f6e6e;
+}
+.main-boot .row .col-md-9 .productAdjustment .productPrice .adjustmentTitle {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.main-boot .row .col-md-9 .productAdjustment .productPrice .priceRange {
+  width: 262px;
+  height: 14px;
+  background: url(../img/priceRange.svg) no-repeat;
+}
+.main-boot .row .col-md-9 .productAdjustment .productPrice .priceValues {
+  display: flex;
+  justify-content: space-between;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 17px;
+}
+.main-boot .row .col-md-9 .productsSorting {
+  min-height: 50px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 41px;
+}
+.main-boot .row .col-md-9 .productsSorting .sortingUnit:first-child {
+  margin-right: 10px;
+}
+.main-boot .row .col-md-9 .productsSorting .sortingUnit {
+  display: flex;
+}
+.main-boot .row .col-md-9 .productsSorting .sortingUnit .sortingTitle {
+  border-right: none;
+  border: 1px solid #ebebeb;
+  background: white;
+  padding: 8px;
+  box-sizing: border-box;
+  height: 30px;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 11px;
+}
+.main-boot .row .col-md-9 .productsSorting .sortingUnit .sortingSelect {
+  border: 1px solid #ebebeb;
+  background: white;
+  padding: 8px;
+  box-sizing: border-box;
+  height: 30px;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 11px;
+}
+.main-boot .row .col-md-9 .productsSorting .sortingUnit .sortingSelect .fas {
+  font-weight: 900;
+}
+.main-boot .row .col-md-9 .featured_link-style {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*!
