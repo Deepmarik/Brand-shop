@@ -248,12 +248,163 @@
                 }
             }
 
-            .featured_link-style {
+            /* Featured */
+            .featured_link-wrp {
                 margin-top: 50px;
                 display: flex;
                 flex-wrap: wrap;
+                //width: 72%;
+                /* margin: auto; */
                 justify-content: space-between;
+                // margin: 0 auto;
+
+                .featured_link {
+                    text-decoration: $link-decor;
+                    margin-bottom: 39px;
+                    position: relative;
+
+                    &:hover .link_img {
+                        filter: brightness(50%);
+                    }
+
+                    &:hover .link_content {
+                        box-shadow: 0 5px 8px 0px #00000026;
+                    }
+
+                    &:hover .content_caret {
+                        display: flex;
+                    }
+
+                    .link_img {
+                        display: block;
+                    }
+
+                    .link_content {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        height: 83px;
+                        padding: 0 15px;
+
+                        .content-txt {
+                            color: #222222;
+                            font-family: lato;
+                            font-size: 13px;
+                            font-weight: 400;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                            margin: 20px 0 17px 0;
+                            text-transform: uppercase;
+                        }
+
+                        .content-price {
+                            color: #f16d7f;
+                            font-family: lato;
+                            font-size: 16px;
+                            font-weight: 700;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    .content_caret {
+                        display: none;
+                        width: 123px;
+                        height: 39px;
+                        border: 1px solid #ffffff;
+                        color: #ffffff;
+                        font-family: lato;
+                        font-size: 13px;
+                        font-weight: 700;
+                        font-style: normal;
+                        position: absolute;
+                        top: 98px;
+                        left: 70px;
+                        background: transparent;
+                        justify-content: space-around;
+                        align-content: center;
+                        padding: 0;
+                        flex-wrap: wrap;
+                        outline: none;
+
+                        .caret_style {
+                            fill: #ffffff;
+                        }
+                    }
+                }
             }
+
+            .paginationWrap {
+                display: flex;
+                justify-content: space-between;
+
+                .pagination {
+                    padding: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 260px;
+                    border-radius: 3px;
+                    border: 1px solid #ebebeb;
+                    color: #c4c4c4;
+
+                    .fas {}
+
+                    .fa-chevron-left {
+                        color: #c4c4c4;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 26px;
+                        text-decoration: none;
+                    }
+
+                    .pagination__link {
+                        color: #c4c4c4;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 26px;
+                        text-decoration: none;
+                    }
+
+                    .pagination__span {}
+
+                    .fa-chevron-right {}
+                }
+
+                .pagination__button {
+                    width: 150px;
+                    min-height: 44px;
+                    border-radius: 3px;
+                    border: 1px solid #ef5b70;
+                    background: none;
+                    color: #ef5b70;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 26px;
+                }
+            }
+
         }
+    }
+}
+
+.benefits {
+    min-height: 341px;
+    background-color: #222224;
+    padding: 100px 15px;
+    margin-top: 110px;
+    color: white;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .benefitUnit {}
+
+        .benefitText {}
     }
 }
