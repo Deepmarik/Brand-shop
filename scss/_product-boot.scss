@@ -46,6 +46,7 @@
                         justify-content: space-between;
                         position: relative;
 
+
                         &:before {
                             position: absolute;
                             left: 0;
@@ -61,23 +62,33 @@
                             top: 4px;
                         }
                     }
+                    .collapsed {
+                        background-image: url(../img/caret_app.png) no-repeat;
+    
+                    }
                 }
 
                 .fas {}
 
                 .fa-caret-down {
-                    content: "\f0d7";
+                    //content: "\f0d7";
                 }
 
-                .collapse {}
+                
 
-                .show {}
+                .collapse {
+                    // background-image: url(../img/caret_app.png) no-repeat;
+                    // background-repeat: no-repeat;
 
-                .card-body {
-                    box-sizing: border-box;
+
+                    .show {}
+
+                    .card-body {
+                        box-sizing: border-box;
+                    }
+
+
                 }
-
-
             }
         }
 
@@ -390,6 +401,7 @@
         }
     }
 }
+
 
 .benefits {
     min-height: 341px;

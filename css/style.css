@@ -1798,10 +1798,10 @@ body {
   position: relative;
   top: 4px;
 }
-.main-boot .row .col-md-3 .accordion .fa-caret-down {
-  content: "\f0d7";
+.main-boot .row .col-md-3 .accordion .navUnit .collapsed {
+  background-image: url(../img/caret_app.png) no-repeat;
 }
-.main-boot .row .col-md-3 .accordion .card-body {
+.main-boot .row .col-md-3 .accordion .collapse .card-body {
   box-sizing: border-box;
 }
 .main-boot .row .col-md-9 {
