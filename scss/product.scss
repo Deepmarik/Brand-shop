@@ -21,8 +21,8 @@ body {
     .header_wrp {
         // padding: $padding-block;
         //display: flex;
-       // justify-content: space-between;
-      //  min-height: 100px;
+        // justify-content: space-between;
+        //  min-height: 100px;
         border-bottom: 1px solid #ececec;
         box-sizing: border-box;
 
@@ -53,7 +53,7 @@ body {
 
                 .logo_name {
                     color: #222222;
-                    font-family: "lato",sans-serif;
+                    font-family: "lato", sans-serif;
                     font-size: 27px;
                     font-weight: 300;
                     font-style: normal;
@@ -65,7 +65,7 @@ body {
 
                     .logo_letter {
                         color: $btn-color;
-                        font-family: "lato",sans-serif;
+                        font-family: "lato", sans-serif;
                         font-weight: 700;
                         font-style: normal;
                         letter-spacing: 0.68px;
@@ -89,7 +89,7 @@ body {
             .form_search_btn {
                 width: 87px;
                 color: #222222;
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 14px;
                 font-weight: 300;
                 font-style: normal;
@@ -161,7 +161,7 @@ body {
                 background-color: $btn-color;
                 text-decoration: $link-decor;
                 color: #ffffff;
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 15px;
                 font-weight: 400;
                 font-style: normal;
@@ -222,7 +222,7 @@ body {
 
 
                 .item_link {
-                    font-family: "lato",sans-serif;
+                    font-family: "lato", sans-serif;
                     text-decoration: $link-decor;
                     color: $color;
                     font-weight: 700;
@@ -252,7 +252,7 @@ body {
         }
 
         .bread_head {
-            font-family: lato,sans-serif;
+            font-family: lato, sans-serif;
             font-size: 24px;
             line-height: 20px;
             font-weight: 900;
@@ -272,7 +272,7 @@ body {
                     list-style-type: $link-decor;
 
                     .bread_item_link {
-                        font-family: lato,sans-serif;
+                        font-family: lato, sans-serif;
                         font-size: 14px;
                         line-height: 20px;
                         font-weight: 300;
@@ -310,7 +310,7 @@ body {
         // .head-left-wrp {}
 
         .head-shop-style {
-            font-family: lato,sans-serif;
+            font-family: lato, sans-serif;
             font-size: 13px;
             line-height: 20px;
             font-weight: 700;
@@ -365,6 +365,7 @@ body {
             .productPrice {
                 @include product_item_character;
                 width: 78px;
+                color: #656565;
             }
 
             .productQty {
@@ -383,11 +384,13 @@ body {
             .productShipping {
                 @include product_item_character;
                 width: 62px;
+                color: #656565;
             }
 
             .productSubtotal {
                 @include product_item_character;
                 width: 66px;
+                color: #656565;
             }
 
             .productAction {
@@ -411,13 +414,14 @@ body {
         }
 
         .prdct-name {
-            font-family: lato,sans-serif;
+            font-family: lato, sans-serif;
             font-size: 13px;
             //line-height: 1.2;
             font-weight: 400;
             text-transform: uppercase;
             color: $color;
-            margin: 35px 0 0 121px;
+            margin: 13px 0 0 121px;
+            
 
         }
 
@@ -426,16 +430,16 @@ body {
             margin-left: 121px;
 
             .color-style {
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 13px;
                 // line-height: 20px;
                 font-weight: 400;
                 color: #575757;
-                //margin-left: 121px;
+                margin: 0;
             }
 
             .size-style {
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 13px;
                 // line-height: 20px;
                 font-weight: 300;
@@ -458,7 +462,7 @@ body {
                 height: 50px;
                 background-color: #ffffff;
                 border: 1px solid #eaeaea;
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 14px;
                 line-height: 1.2;
                 font-weight: 700;
@@ -481,7 +485,7 @@ body {
                 width: 100%;
 
                 .shipping-adress_header {
-                    font-family: lato,sans-serif;
+                    font-family: lato, sans-serif;
                     font-size: 16px;
                     line-height: 1.2;
                     font-weight: 700;
@@ -542,7 +546,7 @@ body {
             width: 355px;
 
             .couponDiscount_header {
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 16px;
                 line-height: 1.2;
                 font-weight: 700;
