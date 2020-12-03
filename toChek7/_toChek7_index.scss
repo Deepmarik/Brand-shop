@@ -1,1 +1,95 @@
 @import "variables";
+
+.category-adaptiv {
+    display: grid;
+    height: 829px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 21px;
+    margin-top: 98px;
+    grid-template-areas:
+        "offer-man offer-women"
+        "offer-man offer-kids"
+        "offer-luxirous offer-kids";
+
+    .banner_txt-wrp {
+        position: absolute;
+    }
+
+    .offer-man {
+        position: relative;
+        grid-area: offer-man;
+
+    }
+
+    .offer-luxirous {
+        position: relative;
+        grid-area: offer-luxirous;
+    }
+
+    .offer-women {
+        position: relative;
+        grid-area: offer-women;
+    }
+
+    .offer-kids {
+        position: relative;
+        grid-area: offer-kids;
+    }
+
+    .category_offer {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .offer1_position {
+        width: 175px;
+        height: 82px;
+        top: 25px;
+    }
+
+    .offer2_position {
+        width: 225px;
+        height: 82px;
+        top: 25px;
+    }
+
+    .offer3_position {
+        width: 162px;
+        height: 82px;
+        top: 25px;
+    }
+
+    .offer4_position {
+        width: 180px;
+        height: 82px;
+        top: 25px
+    }
+
+    .banner_txt-wrp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+
+        .bnr_txt-top {
+            font-family: lato, sans-serif;
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            color: #222222;
+        }
+
+        .bnr_txt-btn {
+            font-size: 30px;
+            color: #f16d7f;
+            text-transform: uppercase;
+        }
+    }
+}
