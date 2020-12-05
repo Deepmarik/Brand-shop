@@ -111,7 +111,7 @@
             display: block;
             text-align: center;
             color: #9f9f9f;
-            font-family: lato,sans-serif;
+            font-family: lato, sans-serif;
             font-size: 14px;
             font-weight: 400;
             font-style: normal;
@@ -132,6 +132,7 @@
                 margin-bottom: 39px;
                 position: relative;
 
+
                 &:hover .link_img {
                     filter: brightness(50%);
                 }
@@ -146,6 +147,7 @@
 
                 .link_img {
                     display: block;
+                    transition: filter 1s, color 0.5s;
                 }
 
                 .link_content {
@@ -154,10 +156,11 @@
                     flex-direction: column;
                     height: 83px;
                     padding: 0 15px 0 15px;
+                    transition: box-shadow 1s, color 0.5s;
 
                     .content-txt {
                         color: #222222;
-                        font-family: lato,sans-serif;
+                        font-family: lato, sans-serif;
                         font-size: 13px;
                         font-weight: 400;
                         font-style: normal;
@@ -169,7 +172,7 @@
 
                     .content-price {
                         color: #f16d7f;
-                        font-family: lato,sans-serif;
+                        font-family: lato, sans-serif;
                         font-size: 16px;
                         font-weight: 700;
                         font-style: normal;
@@ -185,7 +188,7 @@
                     height: 39px;
                     border: 1px solid #ffffff;
                     color: #ffffff;
-                    font-family: lato,sans-serif;
+                    font-family: lato, sans-serif;
                     font-size: 13px;
                     font-weight: 700;
                     font-style: normal;
@@ -212,7 +215,7 @@
             background-color: $btn-color;
             text-decoration: $link-decor;
             color: #ffffff;
-            font-family: lato,sans-serif;
+            font-family: lato, sans-serif;
             font-size: 16px;
             font-weight: 700;
             font-style: normal;
@@ -271,7 +274,7 @@
 
             .txt-top {
                 color: #ffffff;
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 54px;
                 font-weight: 700;
                 font-style: normal;
@@ -311,7 +314,7 @@
 
 
             .free-header {
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 20px;
                 line-height: 1.2;
                 font-weight: 700;
@@ -321,7 +324,7 @@
 
             .offer_txt {
                 color: #fbfbfb;
-                font-family: lato,sans-serif;
+                font-family: lato, sans-serif;
                 font-size: 14px;
                 font-weight: 300;
                 font-style: normal;
