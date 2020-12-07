@@ -11,6 +11,17 @@
         "offer-man offer-women"
         "offer-man offer-kids"
         "offer-luxirous offer-kids";
+        @media (max-width: 610px) {
+            .category-adaptiv {
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                    "offerForMen"
+                    "offer30"
+                    "offerLuxirous"
+                    "offerForKids"
+                ;
+            }
+        }
 
     .banner_txt-wrp {
         position: absolute;
