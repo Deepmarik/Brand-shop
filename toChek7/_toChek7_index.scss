@@ -106,6 +106,12 @@
         top: 25px;
     }
 
+    @media(min-width:990px) {
+        .offer3_position {
+            bottom: 25px;
+        }
+    }
+
     .offer4_position {
         //position: absolute;
         width: 180px;
