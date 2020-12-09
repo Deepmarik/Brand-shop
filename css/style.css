@@ -295,6 +295,7 @@ body {
   background-color: #ffffff;
   position: absolute;
   left: 0;
+  padding-left: 10px;
 }
 .page_main .category .banner-wrp .banner_offer .banner_txt-wrp .bnr_txt-top {
   font-family: lato, sans-serif;
@@ -304,11 +305,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #222222;
+  margin-left: 10px;
 }
 .page_main .category .banner-wrp .banner_offer .banner_txt-wrp .bnr_txt-btn {
   font-size: 30px;
   color: #f16d7f;
   text-transform: uppercase;
+  margin-left: 10px;
 }
 .page_main .category .banner-wrp .banner_offer .category_offer {
   display: block;
@@ -2391,6 +2394,12 @@ body {
   border: none;
 }
 
+@media (min-width: 1140px) {
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
 .category-adaptiv {
   display: grid;
   height: 829px;
@@ -2400,8 +2409,25 @@ body {
   margin-top: 98px;
   grid-template-areas: "offer-man offer-women" "offer-man offer-kids" "offer-luxirous offer-kids";
 }
+@media (max-width: 610px) {
+  .category-adaptiv .category-adaptiv {
+    grid-template-columns: 1fr;
+    grid-template-areas: "offerForMen" "offer30" "offerLuxirous" "offerForKids";
+  }
+}
+@media (min-width: 990px) {
+  .category-adaptiv .offer1_position {
+    bottom: 25px;
+  }
+}
+@media (min-width: 990px) {
+  .category-adaptiv .category_offer {
+    object-position: right;
+  }
+}
 .category-adaptiv .banner_txt-wrp {
   position: absolute;
+  padding-left: 10px;
 }
 .category-adaptiv .offer-man {
   position: relative;
@@ -2424,6 +2450,11 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+@media (min-width: 1200px) {
+  .category-adaptiv .offer1_position {
+    bottom: 25px;
+  }
 }
 .category-adaptiv .offer1_position {
   width: 175px;

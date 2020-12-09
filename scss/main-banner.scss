@@ -52,6 +52,7 @@
                     background-color: #ffffff;
                     position: absolute;
                     left: 0;
+                    padding-left: 10px;
 
                     .bnr_txt-top {
                         font-family: lato, sans-serif;
@@ -61,12 +62,14 @@
                         text-transform: uppercase;
                         letter-spacing: 0.025em;
                         color: #222222;
+                        margin-left: 10px;
                     }
 
                     .bnr_txt-btn {
                         font-size: 30px;
                         color: #f16d7f;
                         text-transform: uppercase;
+                        margin-left: 10px;
                     }
                 }
 

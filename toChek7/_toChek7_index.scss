@@ -1,5 +1,13 @@
 @import "variables";
 
+@media(min-width:1140px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+
+    }
+}
+
 .category-adaptiv {
     display: grid;
     height: 829px;
@@ -11,20 +19,36 @@
         "offer-man offer-women"
         "offer-man offer-kids"
         "offer-luxirous offer-kids";
-        @media (max-width: 610px) {
-            .category-adaptiv {
-                grid-template-columns: 1fr;
-                grid-template-areas: 
-                    "offerForMen"
-                    "offer30"
-                    "offerLuxirous"
-                    "offerForKids"
-                ;
-            }
+
+    @media (max-width: 610px) {
+        .category-adaptiv {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "offerForMen"
+                "offer30"
+                "offerLuxirous"
+                "offerForKids"
+            ;
         }
+    }
+
+    @media(min-width:990px) {
+        .offer1_position {
+            bottom: 25px;
+        }
+
+    }
+
+    @media(min-width:990px) {
+        .category_offer {
+            object-position: right;
+        }
+
+    }
 
     .banner_txt-wrp {
         position: absolute;
+        padding-left: 10px;
     }
 
     .offer-man {
@@ -53,6 +77,12 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+    }
+
+    @media (min-width: 1200px) {
+        .offer1_position {
+            bottom: 25px;
+        }
     }
 
     .offer1_position {
